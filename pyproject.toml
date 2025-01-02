@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "gazette"
+version = "0.1.0"
+description = "personal newspaper service"
+authors = ["Jason Dsouza <jasonrdsouza@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+requests = "^2.32.3"
+feedparser = "^6.0.11"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.31.0"
+black = "^24.10.0"
+
+[tool.black]
+line-length = 120
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
