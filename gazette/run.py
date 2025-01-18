@@ -9,16 +9,21 @@ def daterange(start_date, end_date, dayIncrement=1):
         yield current_date
         current_date += timedelta(days=dayIncrement)
 
+def backfillEditions(articles, start_date, end_date, editionDays=7):
+    for d in daterange(start_date, end_date, editionDays):
+        press = Press(d, PUBLIC_FEEDS)
+        edition = press.constructEdition(articles, lookbackDays=editionDays)
+        edition.writeFile()
 
 # IPython helpers:
 #
 # %load_ext autoreload
 # %autoreload 2
-# from datetime import date
+# from datetime import date, timedelta
 # from gazette import Press
-# from gazette.config import FEEDS
+# from gazette.sources import PUBLIC_FEEDS
 
 if __name__ == "__main__":
-    press = Press(date.today(), FEEDS)
+    press = Press(date.today(), PUBLIC_FEEDS)
     articles = press.fetchArticles()
     edition = press.constructEdition(articles, lookbackDays=3)
