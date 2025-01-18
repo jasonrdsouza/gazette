@@ -7,6 +7,9 @@ from pathlib import Path
 import feedparser
 
 
+SUMMARY_LOWER_WORD_LIMIT = 20
+SUMMARY_UPPER_WORD_LIMIT = 200
+
 @dataclass
 class Article:
     title: str
@@ -19,19 +22,38 @@ class Article:
     def __repr__(self):
         return f"Article(title={self.title}, source={self.source}, publishedAt={self.publishedAt}, link={self.link}, summaryWords={self.summaryWordLength()}, contentWords={self.contentWordLength()})"
 
-    def stringToWords(self, string) -> int:
+    def stringToWords(self, string) -> List[str]:
         return string.split()
 
-    def summaryWordLength(self):
+    def summaryWordLength(self) -> int:
         return len(self.stringToWords(self.summary))
 
-    def contentWordLength(self):
+    def contentWordLength(self) -> int:
         return sum(len(self.stringToWords(c)) for c in self.content)
 
-    # def __post_init__(self):
-    #     summaryWords = self.summary.split()
-    #     if len(summaryWords) > SUMMARY_WORD_LIMIT:
-    #         self.summary = " ".join(summaryWords[:SUMMARY_WORD_LIMIT])
+    def __post_init__(self):
+        # try to intelligently generate a reasonable article summary
+        summaryWords = self.stringToWords(self.summary)
+        contentWords = [word for c in self.content for word in self.stringToWords(c)]
+
+        if SUMMARY_LOWER_WORD_LIMIT < len(summaryWords) < SUMMARY_UPPER_WORD_LIMIT:
+            # if summary is between the word limits, use it
+            self.summary = " ".join(summaryWords)
+        elif len(summaryWords) >= SUMMARY_UPPER_WORD_LIMIT:
+            # if summary is larger than the upper word limit, use it trimmed to the upper limit
+            self.summary = " ".join(summaryWords[:SUMMARY_UPPER_WORD_LIMIT])
+        elif SUMMARY_LOWER_WORD_LIMIT < len(contentWords) < SUMMARY_UPPER_WORD_LIMIT:
+            # if content is between the word limits, use it
+            self.summary = " ".join(contentWords)
+        elif len(contentWords) >= SUMMARY_UPPER_WORD_LIMIT:
+            # if content is larger than the upper word limit, use it trimmed to the upper limit
+            self.summary = " ".join(contentWords[:SUMMARY_UPPER_WORD_LIMIT])
+        elif len(contentWords) >  len(summaryWords):
+            # if content is longer than summary, use it
+            self.summary = " ".join(contentWords)
+        else:
+            # do nothing, staying with the existing summary
+            pass
 
 
 @dataclass
@@ -53,7 +75,7 @@ class Edition:
         p = Path(path)
         fullpath = p.joinpath(f"{self.publishDate.strftime("%Y%m%d")}.json")
         with fullpath.open(mode="w") as f:
-            json.dump(self, f, cls=EditionEncoder)
+            json.dump(self, f, cls=EditionEncoder, sort_keys=True, indent=4)
 
 
 class EditionEncoder(json.JSONEncoder):
