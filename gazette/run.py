@@ -26,4 +26,4 @@ def backfillEditions(articles, start_date, end_date, editionDays=7):
 if __name__ == "__main__":
     press = Press(date.today(), PUBLIC_FEEDS)
     articles = press.fetchArticles()
-    edition = press.constructEdition(articles, lookbackDays=3)
+    edition = press.constructEdition(articles, lookbackDays=7)
