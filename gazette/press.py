@@ -125,7 +125,7 @@ class Press:
     #
     # In the future, I may include more filtering criteria based on topics, etc.
     def shouldPublish(self, lookbackDays: int, article: Article) -> bool:
-        return article.publishedAt < self.editionDate and (self.editionDate - article.publishedAt) < timedelta(
+        return article.publishedAt <= self.editionDate and (self.editionDate - article.publishedAt) < timedelta(
             days=lookbackDays
         )
 
