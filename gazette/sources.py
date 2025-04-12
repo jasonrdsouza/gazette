@@ -1,6 +1,5 @@
 PUBLIC_FEEDS = {
     "Architecture Notes": "https://architecturenotes.co/feed",
-    "Ask Polly": "https://www.ask-polly.com/feed",
     "Ben Kuhn": "https://www.benkuhn.net/index.xml",
     "Bits About Money": "https://www.bitsaboutmoney.com/archive/rss/",
     "CSV Base": "https://csvbase.com/blog/posts.rss",

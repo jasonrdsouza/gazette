@@ -120,7 +120,7 @@ class Press:
         return articles
 
     # For now, the only determinant of whether an article should be published is
-    # how long ago it was written (with a sliding window to avoid missing articles)
+    # how long ago it was written (with a sliding window to avoid missing articles
     # which were published on the boundary of when my script runs.
     #
     # In the future, I may include more filtering criteria based on topics, etc.
@@ -131,6 +131,6 @@ class Press:
 
     # constructs a JSON "edition" payload which the frontend gazette
     # can parse/ display. Output file should include the date in the filename
-    def constructEdition(self, articles: List[Article], lookbackDays=3) -> Edition:
+    def constructEdition(self, articles: List[Article], lookbackDays=1) -> Edition:
         articlesToPublish = [a for a in articles if self.shouldPublish(lookbackDays, a)]
         return Edition(self.editionDate, lookbackDays, list(articlesToPublish))

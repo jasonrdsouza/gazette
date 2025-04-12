@@ -24,6 +24,7 @@ def backfillEditions(articles, start_date, end_date, editionDays=7):
 # from gazette.sources import PUBLIC_FEEDS
 
 if __name__ == "__main__":
-    press = Press(date.today(), PUBLIC_FEEDS)
+    yesterday = date.today() - timedelta(days=1)
+    press = Press(yesterday, PUBLIC_FEEDS)
     articles = press.fetchArticles()
-    edition = press.constructEdition(articles, lookbackDays=7)
+    edition = press.constructEdition(articles, lookbackDays=1)
