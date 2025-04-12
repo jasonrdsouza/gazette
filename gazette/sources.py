@@ -1,4 +1,5 @@
 PUBLIC_FEEDS = {
+    "Alex Molas": "https://www.alexmolas.com/feed.xml",
     "Architecture Notes": "https://architecturenotes.co/feed",
     "Ben Kuhn": "https://www.benkuhn.net/index.xml",
     "Bits About Money": "https://www.bitsaboutmoney.com/archive/rss/",
