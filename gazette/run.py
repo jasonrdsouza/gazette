@@ -28,3 +28,4 @@ if __name__ == "__main__":
     press = Press(yesterday, PUBLIC_FEEDS)
     articles = press.fetchArticles()
     edition = press.constructEdition(articles, lookbackDays=1)
+    edition.writeFile()
