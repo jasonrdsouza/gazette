@@ -1,0 +1,32 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://buttondown.com/hillelwayne/archive/the-halting-problem-is-a-terrible-example-of-np/",
+            "publishedAt": "2025-04-16",
+            "source": "Hillel Wayne",
+            "summary": "<p><em>Short one this time because I have a lot going on this week.</em></p> <p>In computation complexity, <strong>NP</strong> is the class of all decision problems (yes/no) where a potential proof (or \"witness\") for \"yes\" can be <em>verified</em> in polynomial time. For example, \"does this set of numbers have a subset that sums to zero\" is in NP. If the answer is \"yes\", you can prove it by presenting a set of numbers. We would then verify the witness by 1) checking that all the numbers are present in the set (~linear time) and 2) adding up all the numbers (also linear). </p> <p><strong>NP-complete</strong> is the class of \"hardest possible\" NP problems. Subset sum is NP-complete. <strong>NP-hard</strong> is the set all problems <em>at least as hard</em> as NP-complete. Notably, NP-hard is <em>not</em> a subset of NP, as it contains problems that are <em>harder</em> than NP-complete. A natural question to ask is \"like what?\" And the canonical example of \"NP-harder\" is the halting problem (HALT): does program P halt on input C? As the argument goes, it's undecidable, so obviously not in NP.</p> <p>I think this is a bad example for two reasons:</p> <ol> <li>All NP requires is that witnesses for \"yes\" can",
+            "title": "The Halting Problem is a terrible example of NP-Harder"
+        },
+        {
+            "content": [
+                "<p>\n          <a href=\"https://www.astralcodexten.com/p/hidden-open-thread-3775\">\n              Read more\n          </a>\n      </p>"
+            ],
+            "link": "https://www.astralcodexten.com/p/hidden-open-thread-3775",
+            "publishedAt": "2025-04-16",
+            "source": "SlateStarCodex",
+            "summary": "<p> <a href=\"https://www.astralcodexten.com/p/hidden-open-thread-3775\"> Read more </a> </p>",
+            "title": "Hidden Open Thread 377.5"
+        },
+        {
+            "content": [],
+            "link": "https://xkcd.com/3077/",
+            "publishedAt": "2025-04-16",
+            "source": "XKCD",
+            "summary": "<img alt=\"Our anti-de Sitter club is small at the moment, but I've started corresponding with the conformal field theory people.\" src=\"https://imgs.xkcd.com/comics/de_sitter.png\" title=\"Our anti-de Sitter club is small at the moment, but I've started corresponding with the conformal field theory people.\" />",
+            "title": "de Sitter"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2025-04-16"
+}
