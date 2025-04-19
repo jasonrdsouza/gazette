@@ -1,0 +1,32 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://simonwillison.net/2025/Apr/18/gemini-image-segmentation/#atom-entries",
+            "publishedAt": "2025-04-18",
+            "source": "Simon Willison",
+            "summary": "<p>Max Woolf pointed out this new feature of the Gemini 2.5 series (here's my coverage of <a href=\"https://simonwillison.net/2025/Mar/25/gemini/\">2.5 Pro</a> and <a href=\"https://simonwillison.net/2025/Apr/17/start-building-with-gemini-25-flash/\">2.5 Flash</a>) in <a href=\"https://news.ycombinator.com/item?id=43720845#43722227\">a comment</a> on Hacker News:</p> <blockquote> <p>One hidden note from Gemini 2.5 Flash when diving deep into the documentation: for image inputs, not only can the model be instructed to generated 2D bounding boxes of relevant subjects, but it can also <a href=\"https://ai.google.dev/gemini-api/docs/image-understanding#segmentation\">create segmentation masks</a>!</p> <p>At this price point with the Flash model, creating segmentation masks is pretty nifty.</p> </blockquote> <p>I built a tool last year to <a href=\"https://simonwillison.net/2024/Aug/26/gemini-bounding-box-visualization/\">explore Gemini's bounding box abilities</a>. This new segmentation mask feature represents a significant new capability!</p> <p>Here's my new tool to try it out: <strong><a href=\"https://tools.simonwillison.net/gemini-mask\">Gemini API Image Mask Visualization</a></strong>. As with my bounding box tool it's browser-based JavaScript that talks to the Gemini API directly. You provide it with a <a href=\"https://aistudio.google.com/app/apikey\">Gemini API key</a> which isn't logged anywhere that I can see it.</p> <p>This is what it can do:</p> <p><img alt=\"Screenshot of mask tool. At the top is a select box to pick a model (currently using Gemini 2.5 Pro) and a prompt that reads: Give the segmentation masks for the pelicans. Output a JSON list of",
+            "title": "Image segmentation using Gemini 2.5"
+        },
+        {
+            "content": [
+                "<p>\n          <a href=\"https://www.astralcodexten.com/p/yet-another-reason-to-hate-college\">\n              Read more\n          </a>\n      </p>"
+            ],
+            "link": "https://www.astralcodexten.com/p/yet-another-reason-to-hate-college",
+            "publishedAt": "2025-04-18",
+            "source": "SlateStarCodex",
+            "summary": "<p> <a href=\"https://www.astralcodexten.com/p/yet-another-reason-to-hate-college\"> Read more </a> </p>",
+            "title": "Yet Another Reason To Hate College Admissions Essays"
+        },
+        {
+            "content": [],
+            "link": "https://xkcd.com/3078/",
+            "publishedAt": "2025-04-18",
+            "source": "XKCD",
+            "summary": "<img alt=\"The biggest expense was installing the mantle ducts to keep the carbonate-silicate cycle operating.\" src=\"https://imgs.xkcd.com/comics/anchor_bolts.png\" title=\"The biggest expense was installing the mantle ducts to keep the carbonate-silicate cycle operating.\" />",
+            "title": "Anchor Bolts"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2025-04-18"
+}
