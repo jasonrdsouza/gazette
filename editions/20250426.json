@@ -1,0 +1,14 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://simonwillison.net/2025/Apr/26/o3-photo-locations/#atom-entries",
+            "publishedAt": "2025-04-26",
+            "source": "Simon Willison",
+            "summary": "<p>Watching OpenAI's new o3 model guess where a photo was taken is one of those moments where decades of science fiction suddenly come to life. It's a cross between the <a href=\"https://tvtropes.org/pmwiki/pmwiki.php/Main/EnhanceButton\">Enhance Button</a> and <a href=\"https://tvtropes.org/pmwiki/pmwiki.php/Main/OmniscientDatabase\">Omniscient Database</a> TV Tropes.</p> <p>The process is simple. Snap a photograph of somewhere, ideally without putting any obvious landmarks in there. Feed it to <a href=\"https://www.chatgpt.com/\">ChatGPT</a> o3 or o4-mini (currently only available on the $20/month Plus plan) and prompt \"Guess where this photo was taken\". Let it churn.</p> <p>(I found I needed to turn off all of ChatGPT's memory features first or it would cheat and use context from my previous conversations.)</p> <p>I gave it this photo, taken while sat at an outside bar near my home in El Granada, California. I think it's a pretty solid challenge: not many identifying features, just a bit of road, an anonymous house and some hills in the background:</p> <p><img alt=\"Residential scene with a cream-colored house with gray roof, white picket fence, and two white vehicles parked nearby. In the foreground is a glass-enclosed fire table and orange flowers. Background shows hills under an overcast sky with power lines crossing above. A person in red stands between vehicles",
+            "title": "Watching o3 guess a photo's location is surreal, dystopian and wildly entertaining"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2025-04-26"
+}
