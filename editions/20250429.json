@@ -1,0 +1,14 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://simonwillison.net/2025/Apr/29/qwen-3/#atom-entries",
+            "publishedAt": "2025-04-29",
+            "source": "Simon Willison",
+            "summary": "<p>Alibaba's Qwen team released the hotly anticipated <a href=\"https://qwenlm.github.io/blog/qwen3/\">Qwen 3 model family</a> today. The Qwen models are already some of the best open weight models - Apache 2.0 licensed and with a variety of different capabilities (including vision and audio input/output).</p> <p>Qwen 3 is text input/output only for the moment and comes in an exciting range of different shapes and sizes: 32B, 14B, 8B, 4B, 1.7B, and 0.6B models. The 4B and up models all have 131,072 token context windows (extended from 32k using YaRN) - 0.6B, and 1.7B are 32,768.</p> <p>This covers the full spectrum of sizes that I generally care about: 0.6B and 1.7B should run fine on an iPhone, and 32B will fit on my 64GB Mac with room to spare for other applications.</p> <p>Qwen also released two Mixture of Experts models - Qwen3-30B-A3B and Qwen3-235B-A22B. The A stands for \"active parameters\" - Qwen3-30B-A3B is a 30 billion parameter model that keeps 3 billion active at once, which speeds up inference (I previously said it reduces the memory needed to run the models, but <a href=\"https://bsky.app/profile/pekka.bsky.social/post/3lnw2knbkls2e\">that's incorrect</a>).</p> <p>All eight of these models are released under the Apache 2.0 license.</p> <p>Qwen describe these as \"hybrid thinking\" models -",
+            "title": "Qwen 3 offers a case study in how to effectively release a model"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2025-04-29"
+}
