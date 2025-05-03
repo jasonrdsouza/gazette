@@ -1,4 +1,5 @@
 PUBLIC_FEEDS = {
+    "Alex Chan": "https://alexwlchan.net/atom.xml",
     "Alex Molas": "https://www.alexmolas.com/feed.xml",
     "Architecture Notes": "https://architecturenotes.co/feed",
     "Ben Kuhn": "https://www.benkuhn.net/index.xml",
