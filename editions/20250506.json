@@ -1,0 +1,14 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://simonwillison.net/2025/May/6/phi-4-reasoning/#atom-entries",
+            "publishedAt": "2025-05-06",
+            "source": "Simon Willison",
+            "summary": "<p>Microsoft released a new sub-family of models a few days ago: Phi-4 reasoning. They introduced them in <a href=\"https://azure.microsoft.com/en-us/blog/one-year-of-phi-small-language-models-making-big-leaps-in-ai/\">this blog post</a> celebrating a year since the release of Phi-3:</p> <blockquote> <p>Today, we are excited to introduce <strong>Phi-4-reasoning</strong>, <strong>Phi-4-reasoning-plus</strong>, and <strong>Phi-4-mini-reasoning</strong> - marking a new era for small language models and once again redefining what is possible with small and efficient AI.</p> </blockquote> <p>All three of the new models are released under the MIT license, as is the case with previous Phi models.</p> <p>They're available through <a href=\"https://ollama.com/\">Ollama</a> as <a href=\"https://ollama.com/library/phi4-reasoning/tags\">phi4-reasoning</a> (which includes the plus model) and <a href=\"https://ollama.com/library/phi4-mini-reasoning/tags\">phi4-mini-reasoning</a>.</p> <p>These models appear to have a tendency to overthink!</p> <h4 id=\"trying-it-out-with-ollama\">Trying it out with Ollama</h4> <p>I ran it using Ollama and <a href=\"https://github.com/taketwo/llm-ollama\">llm-ollama</a> like this. Fetching the model downloaded 11GB of data:</p> <pre><code>ollama pull phi4-reasoning llm install llm-ollama </code></pre> <p>Then I said \"hi\" to it:</p> <pre><code>llm -m phi4-reasoning:latest hi </code></pre> <p>Here's the full response, which starts with a thought section wrapped in <code>&lt;think&gt;</code> tags:</p> <blockquote> <p><code>&lt;think&gt;</code>User says \"hi\". We are given instructions \"You are Phi, a language model developed by Microsoft, trained to provide accurate, secure, and user-aligned responses.\" There is additional information. Now I must answer \"hi\" message from the user.</p>",
+            "title": "Saying \"hi\" to Microsoft's Phi-4-reasoning"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2025-05-06"
+}
