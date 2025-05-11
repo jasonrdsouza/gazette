@@ -1,0 +1,22 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://harper.blog/notes/2025-05-09_97e4e2c45f04_ran-into-paul-stacey-at-dark-m/",
+            "publishedAt": "2025-05-10",
+            "source": "Harper Reed",
+            "summary": "<p>Ran into Paul Stacey at Dark Matter Soft Parade taking photos of his cool art (and skateboard)</p> <figure> <img alt=\"image_1.jpg\" height=\"1200\" src=\"https://harper.blog/notes/2025-05-09_97e4e2c45f04_ran-into-paul-stacey-at-dark-m/image_1.jpg\" width=\"1800\" /> </figure> <hr /> <p>Thank you for using RSS. I appreciate you. <a href=\"mailto:harper&#64;modest.com\">Email me</a></p>",
+            "title": "Note #245"
+        },
+        {
+            "content": [],
+            "link": "https://simonwillison.net/2025/May/10/llama-cpp-vision/#atom-entries",
+            "publishedAt": "2025-05-10",
+            "source": "Simon Willison",
+            "summary": "<p>This <a href=\"https://github.com/ggml-org/llama.cpp/pull/12898\">llama.cpp server vision support via libmtmd</a> pull request - via <a href=\"https://news.ycombinator.com/item?id=43943047\">Hacker News</a> - was merged earlier today. The PR finally adds full support for vision models to the excellent <a href=\"https://github.com/ggml-org/llama.cpp\">llama.cpp</a> project. It's documented <a href=\"https://github.com/ggml-org/llama.cpp/blob/master/docs/multimodal.md\">on this page</a>, but the more detailed technical details are <a href=\"https://github.com/ggml-org/llama.cpp/tree/master/tools/mtmd#multimodal-support-in-llamacpp\">covered here</a>. Here are my notes on getting it working on a Mac.</p> <p><code>llama.cpp</code> models are usually distributed as <code>.gguf</code> files. This project introduces a new variant of those called <code>mmproj</code>, for multimodal projector. <code>libmtmd</code> is the new library for handling these.</p> <p>You can try it out by compiling <code>llama.cpp</code> from source, but I found another option that works: you can download pre-compiled binaries from the <a href=\"https://github.com/ggml-org/llama.cpp/releases\">GitHub releases</a>.</p> <p>On macOS there's an extra step to jump through to get these working, which I'll describe below.</p> <p><strong>Update</strong>: it turns out the <a href=\"https://formulae.brew.sh/formula/llama.cpp\">Homebrew package</a> for <code>llama.cpp</code> turns things around <em>extremely</em> quickly. You can run <code>brew install llama.cpp</code> or <code>brew upgrade llama.cpp</code> and start running the below tools without any extra steps.</p> <p>I downloaded the <code>llama-b5332-bin-macos-arm64.zip</code> file from <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b5332\">this GitHub release</a> and unzipped it, which created a <code>build/bin</code> directory.</p> <p>That directory contains a bunch of binary executables and a whole lot",
+            "title": "Trying out llama.cpp's new vision support"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2025-05-10"
+}
