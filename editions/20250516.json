@@ -1,0 +1,24 @@
+{
+    "articles": [
+        {
+            "content": [
+                "<p>Though I got my PhD in formal political theory and spent the last year studying culture, I didn&#8217;t until a few days ago notice the big connections between politics and culture. For example, cultural elites seem to strongly crave political influence, while politicians crave cultural endorsements.</p><p>An even bigger connection is that we seem to use political changes as coordination points for making oversized changes to culture. Even if an election was only won by a few percent, many take this not only as a mandate for the new policy changes, they also take it as proving a big cultural &#8220;vibe change&#8221;. And in fact, voters may care more about this cultural effect than about who actually runs the government.</p><p>This could help explain why people like democracy so much, even though it doesn&#8217;t seem to give better policy outcomes. And why they care about the positions of politicians re issues on which those politicians don&#8217;t have much influence. This could also explain why people seem to be so disinterested in polices that don&#8217;t connect much to current cultural debates, like changes to key institutions.</p><p>In conversations we have a norm that individuals should talk to the current topic, and topic changes should be organic, not obviously initiated by anyone. If politics is just another forum for cultural conversations, maybe we don&#8217;t want politicians introducing new issues not previously sanctioned by the recent cultural conversation.</p>"
+            ],
+            "link": "https://www.overcomingbias.com/p/politics-and-culture",
+            "publishedAt": "2025-05-16",
+            "source": "Robin Hanson",
+            "summary": "Though I got my PhD in formal political theory and spent the last year studying culture, I didn&#8217;t until a few days ago notice the big connections between politics and culture.",
+            "title": "Politics and Culture"
+        },
+        {
+            "content": [],
+            "link": "https://xkcd.com/3090/",
+            "publishedAt": "2025-05-16",
+            "source": "XKCD",
+            "summary": "<img alt=\"Turning in other directions can be accomplished by using a magnetized centerboard and ocean currents, since a current flowing through a magnetic field induces a Laplace force.\" src=\"https://imgs.xkcd.com/comics/sail_physics.png\" title=\"Turning in other directions can be accomplished by using a magnetized centerboard and ocean currents, since a current flowing through a magnetic field induces a Laplace force.\" />",
+            "title": "Sail Physics"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2025-05-16"
+}
