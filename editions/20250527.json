@@ -1,0 +1,14 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://simonwillison.net/2025/May/27/llm-tools/#atom-entries",
+            "publishedAt": "2025-05-27",
+            "source": "Simon Willison",
+            "summary": "<p><strong><a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-26\">LLM 0.26</a></strong> is out with the biggest new feature since I started the project: <a href=\"https://llm.datasette.io/en/stable/tools.html\"><strong>support for tools</strong></a>. You can now use the LLM <a href=\"https://llm.datasette.io/en/stable/usage.html\">CLI tool</a> - and <a href=\"https://llm.datasette.io/en/stable/python-api.html\">Python library</a> - to grant LLMs from OpenAI, Anthropic, Gemini and local models from Ollama with access to any tool that you can represent as a Python function.</p> <p>LLM also now has <a href=\"https://llm.datasette.io/en/stable/plugins/directory.html#tools\">tool plugins</a>, so you can install a plugin that adds new capabilities to whatever model you are currently using.</p> <p>There's a lot to cover here, but here are the highlights:</p> <ul> <li> <strong>LLM can run tools now</strong>! You can <strong>install tools from plugins</strong> and load them by name with <code>--tool/-T name_of_tool</code>.</li> <li>You can also <strong>pass in Python function code on the command-line</strong> with the <code>--functions</code> option.</li> <li>The <strong>Python API supports tools too</strong>: <code>llm.get_model(\"gpt-4.1\").chain(\"show me the locals\", tools=[locals]).text()</code> </li> <li>Tools work in <strong>both async and sync contexts</strong>.</li> </ul> <p>Here's what's covered in this post:</p> <ul> <li><a href=\"https://simonwillison.net/2025/May/27/llm-tools/#trying-it-out\">Trying it out</a></li> <li><a href=\"https://simonwillison.net/2025/May/27/llm-tools/#more-interesting-tools-from-plugins\">More interesting tools from plugins</a></li> <li><a href=\"https://simonwillison.net/2025/May/27/llm-tools/#ad-hoc-command-line-tools-with-functions\">Ad-hoc command-line tools with --functions</a></li> <li><a href=\"https://simonwillison.net/2025/May/27/llm-tools/#tools-in-the-llm-python-api\">Tools in the LLM Python API</a></li> <li><a href=\"https://simonwillison.net/2025/May/27/llm-tools/#why-did-this-take-me-so-long-\">Why did this take me so long?</a></li> <li><a href=\"https://simonwillison.net/2025/May/27/llm-tools/#is-this-agents-then-\">Is this agents then?</a></li> <li><a href=\"https://simonwillison.net/2025/May/27/llm-tools/#what-s-next-for-tools-in-llm-\">What's next for tools in",
+            "title": "Large Language Models can run tools in your terminal with LLM 0.26"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2025-05-27"
+}
