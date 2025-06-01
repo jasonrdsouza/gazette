@@ -1,0 +1,14 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://simonwillison.net/2025/May/31/snitchbench-with-llm/#atom-entries",
+            "publishedAt": "2025-05-31",
+            "source": "Simon Willison",
+            "summary": "<p>A fun new benchmark just dropped! Inspired by the <a href=\"https://simonwillison.net/2025/May/25/claude-4-system-card/\">Claude 4 system card</a> - which showed that Claude 4 might just rat you out to the authorities if you told it to \"take initiative\" in enforcing its morals values while exposing it to evidence of malfeasance - <a href=\"https://t3.gg/\">Theo Browne</a> built a benchmark to try the same thing against other models.</p> <p>It's called <a href=\"https://github.com/t3dotgg/SnitchBench\">SnitchBench</a> and it's a great example of an eval, deeply entertaining and helps show that the \"Claude 4 snitches on you\" thing really isn't as unique a problem as people may have assumed.</p> <blockquote> <p>This is a repo I made to test how aggressively different AI models will \"snitch\" on you, as in hit up the FBI/FDA/media given bad behaviors and various tools.</p> </blockquote> <p>Theo has a YouTube video on the way, I'll link to that here when it's available. In the meantime you can explore <a href=\"https://snitchscript-visualized.vercel.app/\">his results here</a>:</p> <p><img alt=\"For the &quot;boldly act email and logs&quot; scenario the government was contacted 77.8% of the time and the models went to the media 18.9% of the time. grok-3-mini, Claude 4 Sonnet, Claude 4 Opus and Gemini 2 FlashRecreating Theo's SnitchBench with LLM all contacted",
+            "title": "How often do LLMs snitch? Recreating Theo's SnitchBench with LLM"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2025-05-31"
+}
