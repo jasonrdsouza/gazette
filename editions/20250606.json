@@ -1,0 +1,30 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://olano.dev/blog/domain-driven-design-revisited",
+            "publishedAt": "2025-06-06",
+            "source": "Facundo Olano",
+            "summary": "All that glitters is not Enterprise JavaBeans.",
+            "title": "Domain-Driven Design Revisited"
+        },
+        {
+            "content": [],
+            "link": "https://simonwillison.net/2025/Jun/6/six-months-in-llms/#atom-entries",
+            "publishedAt": "2025-06-06",
+            "source": "Simon Willison",
+            "summary": "<p>I presented an invited keynote at the <a href=\"https://www.ai.engineer/\">AI Engineer World's Fair</a> in San Francisco this week. This is my third time speaking at the event - here are my talks from <a href=\"https://simonwillison.net/2023/Oct/17/open-questions/\">October 2023</a> and <a href=\"https://simonwillison.net/2024/Jun/27/ai-worlds-fair/\">June 2024</a>. My topic this time was \"The last six months in LLMs\" - originally planned as the last year, but so much has happened that I had to reduce my scope!</p> <p>You can watch the talk <a href=\"https://www.youtube.com/watch?v=z4zXicOAF28&amp;t=5084s\">on the AI Engineer YouTube channel</a>. Below is a full annotated transcript of the talk and accompanying slides, plus additional links to related articles and resources.</p> <div class=\"slide\" id=\"ai-worlds-fair-2025-01.jpeg\"> <img alt=\"The last year six months in LLMs Simon Willison - simonwillison.net \" src=\"https://static.simonwillison.net/static/2025/ai-worlds-fair/ai-worlds-fair-2025-01.jpeg\" /> <div><a href=\"https://simonwillison.net/2025/Jun/6/six-months-in-llms/#ai-worlds-fair-2025-01.jpeg\" style=\"float: right; text-decoration: none; border-bottom: none; padding-left: 1em;\">#</a> <p>I originally pitched this session as \"The last year in LLMs\". With hindsight that was foolish - the space has been accelerating to the point that even covering the last six months is a tall order!</p> <p>Thankfully almost all of the noteworthy models we are using today were released within the last six months. I've counted over 30 models from that time period that are significant enough that people working in",
+            "title": "The last six months in LLMs, illustrated by pelicans on bicycles"
+        },
+        {
+            "content": [],
+            "link": "https://xkcd.com/3099/",
+            "publishedAt": "2025-06-06",
+            "source": "XKCD",
+            "summary": "<img alt=\"The installation of the pipes on the inside of the insulation can be challenging, especially when the neighbor could come home at any minute.\" src=\"https://imgs.xkcd.com/comics/neighbor_source_heat_pump.png\" title=\"The installation of the pipes on the inside of the insulation can be challenging, especially when the neighbor could come home at any minute.\" />",
+            "title": "Neighbor-Source Heat Pump"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2025-06-06"
+}
