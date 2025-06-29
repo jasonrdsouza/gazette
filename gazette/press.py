@@ -111,7 +111,7 @@ class Press:
                                 entry.published_parsed.tm_mon,
                                 entry.published_parsed.tm_mday,
                             ),
-                            link=entry.link,
+                            link=entry.get("link", ""),
                             summary=entry.get("summary", ""),
                             content=[c.value for c in entry.get("content", [])],
                         )
