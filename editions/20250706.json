@@ -1,0 +1,14 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://lethain.com/what-can-agents-do/",
+            "publishedAt": "2025-07-06",
+            "source": "Will Larson",
+            "summary": "<p>There&rsquo;s a lot of excitement about what AI (specifically the latest wave of LLM-anchored AI) can do, and how AI-first companies are different from the prior generations of companies. There are a lot of important and real opportunities at hand, but I find that many of these conversations occur at such an abstract altitude that they border on meaningless. Sort of like saying that your company could be much better if you <em>merely adopted more software</em>. That&rsquo;s certainly true, but it&rsquo;s not a particularly helpful claim.</p> <p>This post is an attempt to concisely summarize how AI agents work, apply that summary to a handful of real-world use cases for AI, and to generally make the case that agents are a multiplier on the quality of your software and system design. If your software or systems are poorly designed, agents will only cause harm. If there&rsquo;s any meaningful definition of an AI-first company, it must be companies where their software and systems are designed with an immaculate attention to detail.</p> <p>By the end of this writeup, my hope is that you&rsquo;ll be well-armed to have a concrete discussion about how LLMs and agents could change the shape of your company, and",
+            "title": "What can agents actually do?"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2025-07-06"
+}
