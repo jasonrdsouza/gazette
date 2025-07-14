@@ -1,0 +1,22 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "http://journal.stuffwithstuff.com/2025/07/13/setting-up-an-sdl3-mac-app-in-xcode-16/",
+            "publishedAt": "2025-07-13",
+            "source": "Robert Nystrom",
+            "summary": "<p>This is mainly a note for my future self, but making it a blog post in case it helps anyone else. This weekend, I decided to try making a little SDL3 app on my new M4 MacBook Pro. It took me a few hours to figure out how to get XCode to play nice with the SDL3 framework given MacOS&rsquo;s paranoia around unsigned code and malware.</p> <p>Here&rsquo;s the summary for anyone whose Google searching takes them here. The instructions are fairly similar to <a href=\"https://wiki.libsdl.org/SDL3/README-macos#setting-up-a-new-project-by-hand\">the SDL3 README for MacOS</a>:</p> <ol> <li><p>Start up XCode. Choose &ldquo;File &gt; New &gt; Project&hellip;&rdquo;.</p></li> <li><p>Select &ldquo;macOS&rdquo;, then under &ldquo;Application&rdquo; choose &ldquo;App&rdquo;. <em>This step is important. Choosing &ldquo;Command Line Tool&rdquo; will <strong>not</strong> work.</em> Click &ldquo;Next&rdquo;.</p></li> <li><p>Give your app a name. For &ldquo;Interface&rdquo;, choose &ldquo;XIB&rdquo;. For &ldquo;Language&rdquo;, choose &ldquo;Objective-C&rdquo;. Click &ldquo;Next&rdquo;. Choose a place to save your project.</p></li> </ol> <p>Now you have a vanilla &ldquo;Hello World&rdquo; Mac app. The next step is integrating SDL:</p> <ol> <li><p>Download <a href=\"https://github.com/libsdl-org/SDL/releases\">a release</a> of SDL. As I&rsquo;m writing this, the latest is 3.2.16. Download the corresponding <code>.dmg</code> file. Open it in Finder.</p></li> <li><p>Open <code>SDL3.xcframework/macos-arm64_x86_64</code> and copy <code>SDL3.framework</code> from there to somewhere in your XCode project&rsquo;s source tree. (I made a <code>lib</code>",
+            "title": "Setting Up an SDL3 Mac App in XCode 16"
+        },
+        {
+            "content": [],
+            "link": "https://simonwillison.net/2025/Jul/13/django-birthday/#atom-entries",
+            "publishedAt": "2025-07-13",
+            "source": "Simon Willison",
+            "summary": "<p>Today is the <a href=\"https://www.djangoproject.com/weblog/2025/jul/13/happy-20th-birthday-django/\">20th anniversary</a> of <a href=\"https://github.com/django/django/commit/d6ded0e91bcdd2a8f7a221f6a5552a33fe545359\">the first commit</a> to the public Django repository!</p> <p>Ten years ago we threw a multi-day 10th birthday party for Django back in its birthtown of Lawrence, Kansas. As a personal celebration of the 20th, I'm revisiting the talk I gave at <em>that</em> event and writing it up here.</p> <p>Here's <a href=\"https://www.youtube.com/watch?v=wqii_iX0RTs\">the YouTube video</a>. Below is a full transcript, plus my slides and some present-day annotations.</p> <p> </p> <h4>Django Origins (and some things I have built with Django)</h4> <p><em>Presented 11th July 2015 at Django Birthday in Lawrence, Kansas</em></p> <p>My original talk title, as you'll see on your programs, was \"Some Things I've Built with Django.\" But then I realized that we're here in the birthplace of Django, celebrating the 10th birthday of the framework, and nobody's told the origin story yet. So, I've switched things around a little bit. I'm going to talk about the origin story of Django, and then if I have time, I'll do the self-indulgent bit and talk about some of the projects I've shipped since then.</p> <p>I think Jacob's introduction hit on something I've never really realized about myself. I do love shipping things. The follow-up and the",
+            "title": "Happy 20th birthday Django! Here's my talk on Django Origins from Django's 10th"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2025-07-13"
+}
