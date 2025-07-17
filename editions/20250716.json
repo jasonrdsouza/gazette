@@ -1,0 +1,32 @@
+{
+    "articles": [
+        {
+            "content": [
+                "<div class=\"trix-content\">\n  <div>According to Statcounter, <a href=\"https://ostechnix.com/linux-reaches-5-desktop-market-share-in-usa/\">Linux has claimed 5% market share of desktop computing in the US</a>. That's double of where it was <a href=\"https://gs.statcounter.com/os-market-share/desktop/united-states-of-america/#monthly-202207-202507\">just three years ago</a>! Really impressive.</div><div><br />Windows is still dominant at 63%, and Apple sit at 26%. But for the latter, it's quite a drop from their peak of 33% in June 2023.<br /><br /></div><div>These are just browser stats, though (even if it's backed up by <a href=\"https://radar.cloudflare.com/explorer?dataSet=http&amp;groupBy=os&amp;dt=52w&amp;filters=deviceType%253DDesktop%252CbotClass%253DLikely_Human&amp;loc=US\">directionally-similar numbers from Cloudflare</a>). There's undoubtedly some variability in the numbers, by the season, and by what lives in the relatively large 4% mystery box of \"other\". But there's no denying that Linux is trending in the right direction in the US.</div><div><br />As a Dane, though, I find it sad that <a href=\"https://gs.statcounter.com/os-market-share/desktop/denmark/#monthly-202001-202507\">Denmark is once again a laggard</a> when it comes to adoption. Windows is even more dominant there at almost 70% (with Apple at 15%). Linux is just under 2%. Interestingly, though, ChromeOS, which is basically a locked-down Linux distribution, is at almost 5%.<br /><br /></div><div>I guess I really shouldn't be disappointed because this is how it always was. It was a big reason why I moved to the US back in 2005. When Ruby on Rails was taking off, it was in America first and foremost. Danish companies were too conservative, too complacent, too married to Microsoft to really pay attention.</div><div><br />There are <a href=\"https://world.hey.com/dhh/denmark-gets-more-serious-about-digital-sovereignty-7736f756\">early indications</a> that a willingness to change this laggard mentality might be sprouting, but we've yet to see any evidence that a shift has actually taken hold yet. It's hard to change culture!<br /><br /></div><div>So while the Danes continue to fiddle, the Americans continue to push forward. Linux is on the up and up!</div>\n</div>"
+            ],
+            "link": "https://world.hey.com/dhh/linux-crosses-magic-market-share-threshold-in-us-1f914771",
+            "publishedAt": "2025-07-16",
+            "source": "DHH",
+            "summary": "<div class=\"trix-content\"> <div>According to Statcounter, <a href=\"https://ostechnix.com/linux-reaches-5-desktop-market-share-in-usa/\">Linux has claimed 5% market share of desktop computing in the US</a>. That's double of where it was <a href=\"https://gs.statcounter.com/os-market-share/desktop/united-states-of-america/#monthly-202207-202507\">just three years ago</a>! Really impressive.</div><div><br />Windows is still dominant at 63%, and Apple sit at 26%. But for the latter, it's quite a drop from their peak of 33% in June 2023.<br /><br /></div><div>These are just browser stats, though (even if it's backed up by <a href=\"https://radar.cloudflare.com/explorer?dataSet=http&amp;groupBy=os&amp;dt=52w&amp;filters=deviceType%253DDesktop%252CbotClass%253DLikely_Human&amp;loc=US\">directionally-similar numbers from Cloudflare</a>). There's undoubtedly some variability in the numbers, by the season, and by what lives in the relatively large 4% mystery box of \"other\". But there's no denying that Linux is trending in the right direction in the US.</div><div><br />As a Dane, though, I find it sad that <a href=\"https://gs.statcounter.com/os-market-share/desktop/denmark/#monthly-202001-202507\">Denmark is once again a laggard</a> when it comes to adoption. Windows is even more dominant there at almost 70% (with Apple at 15%). Linux is just under 2%. Interestingly, though, ChromeOS, which is basically a locked-down Linux distribution, is at almost 5%.<br /><br /></div><div>I guess I really shouldn't be disappointed because this is how it always was. It was a big reason why I moved to the US back in 2005. When Ruby on Rails",
+            "title": "Linux crosses magic market share threshold in US"
+        },
+        {
+            "content": [],
+            "link": "https://harper.blog/notes/2025-07-16_15f55465da7e_clint-captured-me-doing-what-i/",
+            "publishedAt": "2025-07-16",
+            "source": "Harper Reed",
+            "summary": "<p>Clint captured Me doing what I do: showing people how I code with agents.</p> <figure> <img alt=\"image_1.jpg\" height=\"3203\" src=\"https://harper.blog/notes/2025-07-16_15f55465da7e_clint-captured-me-doing-what-i/image_1.jpg\" width=\"1800\" /> </figure> <hr /> <p>Thank you for using RSS. I appreciate you. <a href=\"mailto:harper&#64;modest.com\">Email me</a></p>",
+            "title": "Note #276"
+        },
+        {
+            "content": [],
+            "link": "https://xkcd.com/3116/",
+            "publishedAt": "2025-07-16",
+            "source": "XKCD",
+            "summary": "<img alt=\"This is almost as bad as the time I signed up for a purely partisan fishing expedition.\" src=\"https://imgs.xkcd.com/comics/echo_chamber.png\" title=\"This is almost as bad as the time I signed up for a purely partisan fishing expedition.\" />",
+            "title": "Echo Chamber"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2025-07-16"
+}
