@@ -1,0 +1,24 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://olano.dev/blog/la-tierra-elegida",
+            "publishedAt": "2025-08-23",
+            "source": "Facundo Olano",
+            "summary": "Estuve leyendo La tierra elegida, un libro de ensayos de Juan Forn del 2017. Los textos hab\u00edan salido originalmente en Radar de P\u00e1gina/12, es decir que son anteriores a las contratapas de Yo recordar\u00e9 por ustedes. Pertenecen al mismo g\u00e9nero, el g\u00e9nero Forn, pero a una serie distinta. Me interesa compararlas, ver en qu\u00e9 difieren y en qu\u00e9 se parecen, qu\u00e9 es esencia y qu\u00e9 accidente en la literatura de Forn.",
+            "title": "La tierra elegida"
+        },
+        {
+            "content": [
+                "<p><a href=\"https://grumpy.website/media/2025/1692_full.png\"><img height=\"366\" src=\"https://grumpy.website/media/2025/1692.jpeg\" style=\"width: 461px; height: 366px;\" width=\"461\" /></a></p><p><strong>nikitonsky: </strong>You know what? One notification system is enough. We don\u2019t need three different color-coded types of notifications</p><p><a href=\"https://grumpy.website/search?q=%23EpicGames\">#EpicGames</a> <a href=\"https://grumpy.website/search?q=%23Notifications\">#Notifications</a></p>"
+            ],
+            "link": "https://grumpy.website/1692",
+            "publishedAt": "2025-08-23",
+            "source": "Grumpy UX",
+            "summary": "<p><a href=\"https://grumpy.website/media/2025/1692_full.png\"><img height=\"366\" src=\"https://grumpy.website/media/2025/1692.jpeg\" style=\"width: 461px; height: 366px;\" width=\"461\" /></a></p><p><strong>nikitonsky: </strong>You know what? One notification system is enough. We don\u2019t need three different color-coded types of notifications</p><p><a href=\"https://grumpy.website/search?q=%23EpicGames\">#EpicGames</a> <a href=\"https://grumpy.website/search?q=%23Notifications\">#Notifications</a></p>",
+            "title": "nikitonsky is being grumpy"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2025-08-23"
+}
