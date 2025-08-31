@@ -1,8 +1,10 @@
 PUBLIC_FEEDS = {
     "Alex Chan": "https://alexwlchan.net/atom.xml",
+    "Alex Kladov": "https://matklad.github.io/feed.xml",
     "Alex Molas": "https://www.alexmolas.com/feed.xml",
     "Andrej Karpathy": "https://karpathy.bearblog.dev/feed/",
     "Architecture Notes": "https://architecturenotes.co/feed",
+    "Ben Hoyt": "https://benhoyt.com/writings/rss.xml",
     "Ben Kuhn": "https://www.benkuhn.net/index.xml",
     "Benjamin Ross Hoffman": "https://benjaminrosshoffman.com/feed/",
     "Bits About Money": "https://www.bitsaboutmoney.com/archive/rss/",
@@ -27,7 +29,6 @@ PUBLIC_FEEDS = {
     "Geoffrey Litt": "https://www.geoffreylitt.com/feed.xml",
     "Good Reason": "https://goodreason.substack.com/feed",
     "Grant Slatton": "https://grantslatton.com/rss.xml",
-    "Grumpy UX": "https://grumpy.website/feed.xml",
     "Harper Reed": "https://harper.blog/index.xml",
     "Herman Martinus": "https://herman.bearblog.dev/feed/",
     "Hillel Wayne": "https://buttondown.com/hillelwayne/rss",
@@ -61,6 +62,7 @@ PUBLIC_FEEDS = {
     "Simon Willison": "https://simonwillison.net/atom/entries/",
     "SlateStarCodex": "https://www.astralcodexten.com/feed",
     "Squishy Computer": "https://newsletter.squishy.computer/feed",
+    "Sriram Krishnan": "https://sriramk.substack.com/feed",
     "Stephen Wolfram": "https://writings.stephenwolfram.com/feed/",
     "Stirred Blog": "https://stirredblog.com/feed/",
     "TheZvi": "https://thezvi.wordpress.com/feed/",
@@ -69,4 +71,5 @@ PUBLIC_FEEDS = {
     "Will Larson": "https://lethain.com/feeds.xml",
     "Xe Iaso": "https://xeiaso.net/blog.rss",
     "XKCD": "https://xkcd.com/rss.xml",
+    "Zed Blog": "https://zed.dev/blog.rss",
 }
