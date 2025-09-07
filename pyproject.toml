@@ -1,22 +1,24 @@
-[tool.poetry]
+[project]
 name = "gazette"
 version = "0.1.0"
 description = "personal newspaper service"
-authors = ["Jason Dsouza <jasonrdsouza@gmail.com>"]
+authors = [{ name = "Jason Dsouza", email = "jasonrdsouza@gmail.com" }]
+requires-python = "~=3.13"
 readme = "README.md"
+dependencies = [
+    "requests>=2.32.3,<3",
+    "feedparser>=6.0.11,<7",
+]
 
-[tool.poetry.dependencies]
-python = "^3.13"
-requests = "^2.32.3"
-feedparser = "^6.0.11"
+[dependency-groups]
+dev = [
+    "ipython>=8.31.0,<9",
+    "black>=24.10.0,<25",
+]
 
-[tool.poetry.group.dev.dependencies]
-ipython = "^8.31.0"
-black = "^24.10.0"
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [tool.black]
 line-length = 120
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"

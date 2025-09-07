@@ -33,6 +33,7 @@ PUBLIC_FEEDS = {
     "Herman Martinus": "https://herman.bearblog.dev/feed/",
     "Hillel Wayne": "https://buttondown.com/hillelwayne/rss",
     "Ink & Switch": "https://www.inkandswitch.com/index.xml",
+    "Jason Dsouza": "https://jasondsouza.org/rss.xml",
     "Jason Fried": "https://world.hey.com/jason/feed.atom",
     "Jeff Atwood": "https://blog.codinghorror.com/rss/",
     "John Loeber": "https://loeber.substack.com/feed",
