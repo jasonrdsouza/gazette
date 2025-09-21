@@ -99,23 +99,25 @@ class Press:
         for name, url in self.feeds.items():
             fetched = feedparser.parse(url)
             for entry in fetched.entries:
-                if "published" not in entry:
-                    print(f"No published field for feed {name}, entry {entry.get('title', 'Untitled')}")
+                published_at = None
+                if "published" in entry:
+                    published_at = date(entry.published_parsed.tm_year, entry.published_parsed.tm_mon, entry.published_parsed.tm_mday)
+                elif "updated" in entry:
+                    published_at = date(entry.updated_parsed.tm_year, entry.updated_parsed.tm_mon, entry.updated_parsed.tm_mday)
                 else:
-                    articles.append(
-                        Article(
-                            title=entry.get("title", "Untitled"),
-                            source=name,
-                            publishedAt=date(
-                                entry.published_parsed.tm_year,
-                                entry.published_parsed.tm_mon,
-                                entry.published_parsed.tm_mday,
-                            ),
-                            link=entry.get("link", ""),
-                            summary=entry.get("summary", ""),
-                            content=[c.value for c in entry.get("content", [])],
-                        )
+                    print(f"No published/ updated date for feed {name}, entry {entry.get('title', 'Untitled')}... SKIPPING")
+                    continue
+
+                articles.append(
+                    Article(
+                        title=entry.get("title", "Untitled"),
+                        source=name,
+                        publishedAt=published_at,
+                        link=entry.get("link", ""),
+                        summary=entry.get("summary", ""),
+                        content=[c.value for c in entry.get("content", [])],
                     )
+                )
 
         return articles
 

@@ -1,5 +1,14 @@
 {
-    "articles": [],
+    "articles": [
+        {
+            "content": [],
+            "link": "https://www.nytimes.com/2025/09/18/style/modern-love-we-want-your-best-breakup-lines.html",
+            "publishedAt": "2025-09-20",
+            "source": "Modern Love - NYT",
+            "summary": "For a special Modern Love project, we\u2019re looking for your most unforgettable lines from a breakup, either delivered or received \u2014 kind, bizarre, profound, haunting or funny.",
+            "title": "We Want Your Best Breakup Lines"
+        }
+    ],
     "lookbackDays": 1,
     "publishDate": "2025-09-20"
 }
