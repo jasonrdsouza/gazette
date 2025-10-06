@@ -1,0 +1,30 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://harper.blog/notes/2025-10-05_95c055479010_just-got-a-covid-booster-and-a/",
+            "publishedAt": "2025-10-05",
+            "source": "Harper Reed",
+            "summary": "<p>Just got a Covid booster and a flu shot in HMart</p> <hr /> <p>Thank you for using RSS. I appreciate you. <a href=\"mailto:harper&#64;modest.com\">Email me</a></p>",
+            "title": "Note #289"
+        },
+        {
+            "content": [],
+            "link": "https://www.robinsloan.com/lab/tone-control/",
+            "publishedAt": "2025-10-05",
+            "source": "Robin Sloan",
+            "summary": "<p>I do not wish to be spoken to this way. <a href=\"https://www.robinsloan.com/lab/tone-control/\">Read here.</a></p>",
+            "title": "Tone control"
+        },
+        {
+            "content": [],
+            "link": "https://simonwillison.net/2025/Oct/5/parallel-coding-agents/#atom-entries",
+            "publishedAt": "2025-10-05",
+            "source": "Simon Willison",
+            "summary": "<p>For a while now I've been hearing from engineers who run multiple coding agents at once - firing up several Claude Code or Codex CLI instances at the same time, sometimes in the same repo, sometimes against multiple checkouts or <a href=\"https://docs.claude.com/en/docs/claude-code/common-workflows#run-parallel-claude-code-sessions-with-git-worktrees\">git worktrees</a>.</p> <p>I was pretty skeptical about this at first. AI-generated code needs to be reviewed, which means the natural bottleneck on all of this is how fast I can review the results. It's tough keeping up with just a single LLM given how fast they can churn things out, where's the benefit from running more than one at a time if it just leaves me further behind?</p> <p>Despite my misgivings, over the past few weeks I've noticed myself quietly starting to embrace the parallel coding agent lifestyle.</p> <p>I can only focus on reviewing and landing one significant change at a time, but I'm finding an increasing number of tasks that can still be fired off in parallel without adding too much cognitive overhead to my primary work.</p> <p>Here are some patterns I've found for applying parallel agents effectively.</p> <h4 id=\"research-poc\">Research for proof of concepts</h4> <p>The first category of tasks I've been applying this pattern to is <strong>research</strong>.</p> <p>Research",
+            "title": "Embracing the parallel coding agent lifestyle"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2025-10-05"
+}
