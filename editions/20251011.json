@@ -1,0 +1,30 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://olano.dev/blog/verified-in-production",
+            "publishedAt": "2025-10-11",
+            "source": "Facundo Olano",
+            "summary": "Pining for the (Jira) fields.",
+            "title": "\u201cNeeds to be verified in production\u201d"
+        },
+        {
+            "content": [],
+            "link": "https://qntm.org/utf",
+            "publishedAt": "2025-10-11",
+            "source": "QNTM",
+            "summary": "<b><a href=\"https://qntm.org/utf\">Code</a> \u00bb</b> Quick simple one. A Unicode character is... well, for the purposes of this enumeration, it is an integer from 0 to 1,114,111 inclusive, which we express in hexadecimal as U+0000 through U+10FFFF. The interpretations and interactions of these characters are extremely complex, but we can actually ignore these here. In particular, I'm going to ignore issues relating to surrogates. There are several ways to encode Unicode characters as bytes (octets). Three such encodings are UTF-8, UTF-16 and UTF-32. Let's start with the most interesting and popular of these: UTF-8 In UTF-8: Characters U+0000 to U+007F inclusive are encoded using 1 byte - there are 128 of these 1-byte sequences. Characters U+0080 to U+07FF inclusive are encoded using 2 bytes - there are 1,920 of these 2-byte sequences. Characters U+0800 to U+FFFF inclusive are encoded using 3 bytes - there are 63,488 of these 3-byte sequences. Characters U+10000 to U+10FFFF inclusive are encoded using 4 bytes - the...",
+            "title": "How many valid UTF-8 (or UTF-16, or UTF-32) byte sequences are there?"
+        },
+        {
+            "content": [],
+            "link": "https://www.robinsloan.com/lab/coach-therapist/",
+            "publishedAt": "2025-10-11",
+            "source": "Robin Sloan",
+            "summary": "<p>What a time to be alive! <a href=\"https://www.robinsloan.com/lab/coach-therapist/\">Read here.</a></p>",
+            "title": "History rides again"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2025-10-11"
+}
