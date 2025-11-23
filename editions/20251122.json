@@ -1,0 +1,24 @@
+{
+    "articles": [
+        {
+            "content": [
+                "<header>\n  <h1>TigerBeetle Blog</h1>\n  <time class=\"meta\" datetime=\"2025-11-22\">Nov 22, 2025</time>\n</header>\n<p>Continuing the <a href=\"https://matklad.github.io/2019/11/13/rust-analyzer-blog.html\">tradition</a>, I\u2019ve been\nalso blogging somewhat regularly on TigerBeetle\u2019s blog, so you might want to check those articles\nout or even subscribe (my favorite RSS reader is <a href=\"https://matklad.github.io/2025/06/26/rssssr.html\"><em>RSSSSR</em></a>):</p>\n<ul>\n<li>\n<a class=\"url\" href=\"https://tigerbeetle.com/blog/\">https://tigerbeetle.com/blog/</a>\n</li>\n<li>\n<a class=\"url\" href=\"https://tigerbeetle.com/blog/atom.xml\">https://tigerbeetle.com/blog/atom.xml</a>\n</li>\n</ul>\n<p><a href=\"https://tigerbeetle.com/blog/2025-11-22-mathematics-of-consensus/\">Today\u2019s post</a> is a video version\nof <a href=\"https://matklad.github.io/2020/11/01/notes-on-paxos.html\"><em>Notes on Paxos</em></a>!</p>"
+            ],
+            "link": "https://matklad.github.io/2025/11/22/tigerbeetle-blog.html",
+            "publishedAt": "2025-11-22",
+            "source": "Alex Kladov",
+            "summary": "Continuing the tradition, I've been also blogging somewhat regularly on TigerBeetle's blog, so you might want to check those articles out or even subscribe (my favorite RSS reader is RSSSSR):",
+            "title": "TigerBeetle Blog"
+        },
+        {
+            "content": [],
+            "link": "https://simonwillison.net/2025/Nov/22/olmo-3/#atom-entries",
+            "publishedAt": "2025-11-22",
+            "source": "Simon Willison",
+            "summary": "<p>Olmo is the LLM series from Ai2 - the <a href=\"https://allenai.org/\">Allen institute for AI</a>. Unlike most open weight models these are notable for including the full training data, training process and checkpoints along with those releases.</p> <p>The <a href=\"https://allenai.org/blog/olmo3\">new Olmo 3</a> claims to be \"the best fully open 32B-scale thinking model\" and has a strong focus on interpretability:</p> <blockquote> <p>At its center is <strong>Olmo 3-Think (32B)</strong>, the best fully open 32B-scale thinking model that for the first time lets you inspect intermediate reasoning traces and trace those behaviors back to the data and training decisions that produced them.</p> </blockquote> <p>They've released four 7B models - Olmo 3-Base, Olmo 3-Instruct, Olmo 3-Think and Olmo 3-RL Zero, plus 32B variants of the 3-Think and 3-Base models.</p> <p>Having full access to the training data is really useful. Here's how they describe that:</p> <blockquote> <p>Olmo 3 is pretrained on <strong>Dolma 3</strong>, a new ~9.3-trillion-token corpus drawn from web pages, science PDFs processed with <a href=\"https://olmocr.allenai.org/\">olmOCR</a>, codebases, math problems and solutions, and encyclopedic text. From this pool, we construct <strong>Dolma 3 Mix</strong>, a 5.9-trillion-token (~6T) pretraining mix with a higher proportion of coding and mathematical data than earlier Dolma releases, plus much stronger decontamination via",
+            "title": "Olmo 3 is a fully open LLM"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2025-11-22"
+}
