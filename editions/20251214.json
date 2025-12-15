@@ -1,0 +1,48 @@
+{
+    "articles": [
+        {
+            "content": [
+                "<p>Well, shit.</p>\n<p>I wrote my first blog post in this space on December 27th, 2015 &#8212; almost exactly a decade ago.</p>\n<p><a href=\"https://charity.wtf/2015/12/27/hello-world/\">&#8220;Hello, world</a>.&#8221;</p>\n<p>I had just left Facebook, hadn&#8217;t yet formally incorporated Honeycomb, and it just felt like it was time, <em>long past\u00a0time</em> for me to put something up and start writing.</p>\n<p>Ten years later, it feels <em>long past time</em> for me to do something else. I despise WP (who doesn&#8217;t?), and there&#8217;s so much friction in getting a post out that I just don&#8217;t do it. Plus, it&#8217;s clear that to the extent that there is a vibrant ecosystem of tech writers in longform, it&#8217;s on substack. I miss tech twitter, always will. Time to give substack a try.</p>\n<p>I&#8217;ve been working on the second edition of &#8220;Observability Engineering&#8221; for much of this year, and I have learned SO MUCH in the writing process. As soon as these rough drafts have all been turned in, I will be streaming my thoughts out via substack. They are burning a hole in my brain the longer I hold them in.</p>\n<p>Housekeeping notes:</p>\n<ul>\n<li>I&#8217;ve tried to export the email subscribers and import them into substack, but it&#8217;s held up for manual review. I don&#8217;t know what that means.</li>\n<li>I won&#8217;t be able to export and bring along the comments you folks have left over the years. I&#8217;m sorry. \ud83d\ude41</li>\n<li>I am going to leave charity.wtf pointed here for the foreseeable future, even tho I am working to port over the corpus of posts. I don&#8217;t want to break anyone&#8217;s bookmarks or article links, so I&#8217;ll leave it up here until / unless I find a solution.</li>\n</ul>\n<p>If you want to go subscribe, I&#8217;m at charitydotwtf.substack.com. Here&#8217;s the blurb:</p>\n<p></p>\n<p>Thank you all for a wonderful 10 years together. WordPress may be a piece of shit, but the community I&#8217;ve found here has been anything but. I hope to see you on the other side.</p>\n<p>\ud83d\udc9c\ud83d\udc99\ud83d\udc9a\ud83d\udc9b\ud83e\udde1\u2764\ufe0f\ud83d\udc96</p>\n<p>charity</p>\n<p>&nbsp;</p>"
+            ],
+            "link": "https://charity.wtf/2025/12/14/moving-from-wordpress-to-substack/",
+            "publishedAt": "2025-12-14",
+            "source": "Charity Majors",
+            "summary": "Well, shit. I wrote my first blog post in this space on December 27th, 2015 &#8212; almost exactly a decade ago. &#8220;Hello, world.&#8221; I had just left Facebook, hadn&#8217;t yet formally incorporated Honeycomb, and it just felt like it was time, long past time for me to put something up and start writing. Ten years later, [&#8230;]",
+            "title": "Moving from WordPress to Substack"
+        },
+        {
+            "content": [],
+            "link": "https://eugeneyan.com//writing/2025-review/",
+            "publishedAt": "2025-12-14",
+            "source": "Eugene Yan",
+            "summary": "An eventful year of progress in health and career, while making time for travel and reflection.",
+            "title": "2025 Year in Review"
+        },
+        {
+            "content": [],
+            "link": "https://harper.blog/notes/2025-12-14_c92e805d8880_saw-the-armed-on-friday/",
+            "publishedAt": "2025-12-14",
+            "source": "Harper Reed",
+            "summary": "<p>Saw The Armed on Friday.</p> <figure> <img alt=\"image_1.jpg\" height=\"1800\" src=\"https://harper.blog/notes/2025-12-14_c92e805d8880_saw-the-armed-on-friday/image_1.jpg\" width=\"1800\" /> </figure> <hr /> <p>Thank you for using RSS. I appreciate you. <a href=\"mailto:harper&#64;modest.com\">Email me</a></p>",
+            "title": "Note #303"
+        },
+        {
+            "content": [],
+            "link": "https://harper.blog/notes/2025-12-14_bf241696e26f_the-balloon-museum-was-very-in/",
+            "publishedAt": "2025-12-14",
+            "source": "Harper Reed",
+            "summary": "<p>The balloon museum was very interesting</p> <figure> <img alt=\"image_1.jpg\" height=\"1200\" src=\"https://harper.blog/notes/2025-12-14_bf241696e26f_the-balloon-museum-was-very-in/image_1.jpg\" width=\"1800\" /> </figure> <hr /> <p>Thank you for using RSS. I appreciate you. <a href=\"mailto:harper&#64;modest.com\">Email me</a></p>",
+            "title": "Note #302"
+        },
+        {
+            "content": [],
+            "link": "https://simonwillison.net/2025/Dec/14/justhtml/#atom-entries",
+            "publishedAt": "2025-12-14",
+            "source": "Simon Willison",
+            "summary": "<p>I recently came across <a href=\"https://github.com/EmilStenstrom/justhtml\">JustHTML</a>, a new Python library for parsing HTML released by Emil Stenstr\u00f6m. It's a very interesting piece of software, both as a useful library and as a case study in sophisticated AI-assisted programming.</p> <h4 id=\"first-impressions-of-justhtml\">First impressions of JustHTML</h4> <p>I didn't initially know that JustHTML had been written with AI assistance at all. The README caught my eye due to some attractive characteristics:</p> <ul> <li>It's pure Python. I like libraries that are pure Python (no C extensions or similar) because it makes them easy to use in less conventional Python environments, including Pyodide.</li> <li>\"Passes all 9,200+ tests in the official <a href=\"https://github.com/html5lib/html5lib-tests\">html5lib-tests</a> suite (used by browser vendors)\" - this instantly caught my attention! HTML5 is a big, complicated but meticulously written specification.</li> <li>100% test coverage. That's not something you see every day.</li> <li>CSS selector queries as a feature. I built a Python library for this <a href=\"https://github.com/simonw/soupselect\">many years ago</a> and I'm always interested in seeing new implementations of that pattern.</li> <li>html5lib has been <a href=\"https://github.com/mozilla/bleach/issues/698\">inconsistently maintained</a> over the last few years, leaving me interested in potential alternatives.</li> <li>It's only 3,000 lines of implementation code (and another ~11,000 of tests.)</li> </ul> <p>I was out and about without",
+            "title": "JustHTML is a fascinating example of vibe engineering in action"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2025-12-14"
+}
