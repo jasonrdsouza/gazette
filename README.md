@@ -13,6 +13,11 @@ Format python files
 uv run black gazette/
 ```
 
+Generate today's Gazette edition
+```
+uv run python -m gazette.run
+```
+
 Analyze a new feed
 ```
 uv run python -m gazette.editor <RSS_URL>
