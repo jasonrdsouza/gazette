@@ -68,6 +68,10 @@
         "url": "https://calv.info/atom.xml"
     },
     {
+        "name": "Candost Dagdeviren",
+        "url": "https://candost.blog/posts/rss.xml"
+    },
+    {
         "name": "Cate Hall",
         "url": "https://usefulfictions.substack.com/feed"
     },
@@ -146,6 +150,10 @@
     {
         "name": "Frederick Vanbrabant",
         "url": "https://frederickvanbrabant.com/index.xml"
+    },
+    {
+        "name": "Gaurav Ramesh",
+        "url": "https://outofdesk.netlify.app/api/rss"
     },
     {
         "name": "Geoffrey Huntley",
@@ -316,6 +324,10 @@
         "url": "https://sashachapin.substack.com/feed"
     },
     {
+        "name": "Sean Goedecke",
+        "url": "https://www.seangoedecke.com/rss.xml"
+    },
+    {
         "name": "Shreyas Hariharan",
         "url": "https://www.dopaminemarkets.com/feed"
     },
@@ -352,12 +364,20 @@
         "url": "https://writings.stephenwolfram.com/feed/"
     },
     {
+        "name": "Steve Yegge",
+        "url": "https://steve-yegge.medium.com/feed"
+    },
+    {
         "name": "Stirred Blog",
         "url": "https://stirredblog.com/feed/"
     },
     {
         "name": "Taras Glek",
         "url": "https://taras.glek.net/index.xml"
+    },
+    {
+        "name": "Taylor Troesh",
+        "url": "https://taylor.town/feed.xml"
     },
     {
         "name": "The Sephist",
