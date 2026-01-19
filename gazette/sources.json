@@ -32,6 +32,10 @@
         "url": "https://architecturenotes.co/feed"
     },
     {
+        "name": "Armin Ronacher",
+        "url": "https://lucumr.pocoo.org/feed.xml"
+    },
+    {
         "name": "Asimov Press",
         "url": "https://www.asimov.press/feed"
     },

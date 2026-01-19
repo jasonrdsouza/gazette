@@ -21,38 +21,47 @@ def main():
 
     url = args.url
 
+    # Try to determine feed name regardless of flags
+    feed_name = args.name
+    feed_data = None
+
+    if not feed_name:
+        print(f"Fetching feed metadata for: {url}")
+        feed_data = feedparser.parse(url)
+
+        # Try to find author
+        if hasattr(feed_data, "feed") and hasattr(feed_data.feed, "author"):
+            feed_name = feed_data.feed.author
+            print(f"Found author: {feed_name}")
+
+        # Fallback to title
+        if (
+            not feed_name
+            and hasattr(feed_data, "feed")
+            and hasattr(feed_data.feed, "title")
+        ):
+            feed_name = feed_data.feed.title
+            print(f"Found title: {feed_name}")
+
+    if not feed_name:
+        feed_name = "Editor Source"
+        print("Could not determine feed title. Using default 'Editor Source'.")
+
+    print("")  # Newline for readability
+
     if args.add_source:
-        title = args.name
-        if not title:
-            print(f"Fetching feed metadata for: {url}")
-            feed_data = feedparser.parse(url)
-
-            # Try to find author
-            if hasattr(feed_data, "feed") and hasattr(feed_data.feed, "author"):
-                title = feed_data.feed.author
-                print(f"Found author: {title}")
-
-            # Fallback to title
-            if (
-                not title
-                and hasattr(feed_data, "feed")
-                and hasattr(feed_data.feed, "title")
-            ):
-                title = feed_data.feed.title
-                print(f"Found title: {title}")
-
-        if title:
-            if add_source(title, url):
-                print(f"Successfully added '{title}' to sources.")
+        if feed_name != "Editor Source":
+            if add_source(feed_name, url):
+                print(f"Successfully added '{feed_name}' to sources.")
             else:
                 print(f"Source with URL '{url}' already exists.")
         else:
             print("Could not determine feed title. Cannot add source.")
         print("")
 
-    print(f"Analyzing feed: {url}\n")
+    print(f"Analyzing feed: {url} ({feed_name})\n")
 
-    articles, skipped = parse_feed("Editor Source", url)
+    articles, skipped = parse_feed(feed_name, url)
 
     if not articles and not skipped:
         print("No entries found in feed.")
