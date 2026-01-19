@@ -24,6 +24,10 @@
         "url": "https://architecturenotes.co/feed"
     },
     {
+        "name": "Asimov Press",
+        "url": "https://www.asimov.press/feed"
+    },
+    {
         "name": "Ben Hoyt",
         "url": "https://benhoyt.com/writings/rss.xml"
     },
@@ -66,6 +70,10 @@
     {
         "name": "Dan Abramov",
         "url": "https://overreacted.io/atom.xml"
+    },
+    {
+        "name": "Dan Cohen",
+        "url": "https://newsletter.dancohen.org/rss.xml"
     },
     {
         "name": "DanLuu",
@@ -124,6 +132,10 @@
         "url": "https://fly.io/blog/feed.xml"
     },
     {
+        "name": "Frederick Vanbrabant",
+        "url": "https://frederickvanbrabant.com/index.xml"
+    },
+    {
         "name": "Geoffrey Huntley",
         "url": "https://ghuntley.com/rss/"
     },
@@ -166,6 +178,10 @@
     {
         "name": "Jason Fried",
         "url": "https://world.hey.com/jason/feed.atom"
+    },
+    {
+        "name": "Jason Wei",
+        "url": "https://www.jasonwei.net/blog?format=rss"
     },
     {
         "name": "Jeff Atwood",
@@ -282,6 +298,10 @@
     {
         "name": "Robin Sloan",
         "url": "https://www.robinsloan.com/lab.xml"
+    },
+    {
+        "name": "Shreyas Hariharan",
+        "url": "https://www.dopaminemarkets.com/feed"
     },
     {
         "name": "Shrivu Shankar",

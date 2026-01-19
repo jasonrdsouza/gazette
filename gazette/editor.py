@@ -13,16 +13,24 @@ def main():
         action="store_true",
         help="Add the provided RSS feed to the sources json file",
     )
+    parser.add_argument(
+        "--name",
+        help="Manually specify the source name when adding a new source",
+    )
     args = parser.parse_args()
 
     url = args.url
 
     if args.add_source:
-        print(f"Fetching feed metadata for: {url}")
-        feed_data = feedparser.parse(url)
-        if hasattr(feed_data, "feed") and hasattr(feed_data.feed, "title"):
-            title = feed_data.feed.title
-            print(f"Found title: {title}")
+        title = args.name
+        if not title:
+            print(f"Fetching feed metadata for: {url}")
+            feed_data = feedparser.parse(url)
+            if hasattr(feed_data, "feed") and hasattr(feed_data.feed, "title"):
+                title = feed_data.feed.title
+                print(f"Found title: {title}")
+
+        if title:
             if add_source(title, url):
                 print(f"Successfully added '{title}' to sources.")
             else:
