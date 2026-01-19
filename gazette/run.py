@@ -9,11 +9,13 @@ def daterange(start_date, end_date, dayIncrement=1):
         yield current_date
         current_date += timedelta(days=dayIncrement)
 
+
 def backfillEditions(articles, start_date, end_date, editionDays=7):
     for d in daterange(start_date, end_date, editionDays):
         press = Press(d, PUBLIC_FEEDS)
         edition = press.constructEdition(articles, lookbackDays=editionDays)
         edition.writeFile()
+
 
 # IPython helpers:
 #

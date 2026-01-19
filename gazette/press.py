@@ -10,6 +10,7 @@ import feedparser
 SUMMARY_LOWER_WORD_LIMIT = 20
 SUMMARY_UPPER_WORD_LIMIT = 200
 
+
 @dataclass
 class Article:
     title: str
@@ -48,7 +49,7 @@ class Article:
         elif len(contentWords) >= SUMMARY_UPPER_WORD_LIMIT:
             # if content is larger than the upper word limit, use it trimmed to the upper limit
             self.summary = " ".join(contentWords[:SUMMARY_UPPER_WORD_LIMIT])
-        elif len(contentWords) >  len(summaryWords):
+        elif len(contentWords) > len(summaryWords):
             # if content is longer than summary, use it
             self.summary = " ".join(contentWords)
         else:
@@ -135,9 +136,7 @@ class Press:
             feed_articles, skipped = parse_feed(name, url)
             articles.extend(feed_articles)
             for entry in skipped:
-                print(
-                    f"No published/ updated date for feed {name}, entry {entry.get('title', 'Untitled')}... SKIPPING"
-                )
+                print(f"No published/ updated date for feed {name}, entry {entry.get('title', 'Untitled')}... SKIPPING")
 
         return articles
 

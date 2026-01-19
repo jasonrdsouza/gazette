@@ -5,10 +5,15 @@ Personal newspaper service
 
 Dev console
 ```
-poetry run ipython
+uv run ipython
 ```
 
 Format python files
 ```
-poetry run black gazette/
+uv run black gazette/
+```
+
+Analyze a new feed
+```
+uv run python -m gazette.editor <RSS_URL>
 ```
