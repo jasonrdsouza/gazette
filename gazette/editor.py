@@ -1,0 +1,71 @@
+import argparse
+from collections import defaultdict
+from gazette.press import parse_feed
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Analyze an RSS feed.")
+    parser.add_argument("url", help="The URL of the RSS feed to analyze")
+    args = parser.parse_args()
+
+    url = args.url
+    print(f"Analyzing feed: {url}\n")
+
+    articles, skipped = parse_feed("Editor Source", url)
+
+    if not articles and not skipped:
+        print("No entries found in feed.")
+        return
+
+    # Stats
+    total_articles = len(articles)
+
+    # Sort by date descending
+    articles.sort(key=lambda a: a.publishedAt, reverse=True)
+
+    if articles:
+        newest = articles[0].publishedAt
+        oldest = articles[-1].publishedAt
+        days_span = (newest - oldest).days
+
+        # Avoid division by zero and handle short spans
+        if days_span == 0:
+            weeks = 1 / 7  # Treat as 1 day
+        else:
+            weeks = days_span / 7
+
+        avg_per_week = total_articles / weeks
+
+        print(f"Total Articles: {total_articles}")
+        print(f"Date Range: {oldest} to {newest} ({days_span} days)")
+        print(f"Frequency: {avg_per_week:.2f} entries / week")
+        print("")
+
+        print("Historical Distribution:")
+        # Group by YYYY-MM
+        history = defaultdict(int)
+        for a in articles:
+            key = a.publishedAt.strftime("%Y-%m")
+            history[key] += 1
+
+        # Sort keys
+        sorted_keys = sorted(history.keys(), reverse=True)
+        for key in sorted_keys:
+            print(f"  {key}: {history[key]}")
+        print("")
+    else:
+        print("No valid articles found (all were skipped or feed is empty of valid articles).")
+        print("")
+
+    if skipped:
+        print("Skipped Entries (Issues):")
+        print(f"Total Skipped: {len(skipped)}")
+        for entry in skipped:
+            title = entry.get("title", "Untitled")
+            print(f"  - {title} (Missing published/updated date)")
+    else:
+        print("No parsing issues encountered.")
+
+
+if __name__ == "__main__":
+    main()

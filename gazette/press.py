@@ -1,7 +1,7 @@
 import dataclasses
 from dataclasses import dataclass
 from datetime import date, timedelta
-from typing import List
+from typing import List, Tuple, Any
 import json
 from pathlib import Path
 import feedparser
@@ -88,6 +88,41 @@ class EditionEncoder(json.JSONEncoder):
         return super().default(obj)
 
 
+def parse_feed(source_name: str, url: str) -> Tuple[List[Article], List[Any]]:
+    articles: List[Article] = []
+    skipped: List[Any] = []
+    fetched = feedparser.parse(url)
+    for entry in fetched.entries:
+        published_at = None
+        if "published" in entry:
+            published_at = date(
+                entry.published_parsed.tm_year,
+                entry.published_parsed.tm_mon,
+                entry.published_parsed.tm_mday,
+            )
+        elif "updated" in entry:
+            published_at = date(
+                entry.updated_parsed.tm_year,
+                entry.updated_parsed.tm_mon,
+                entry.updated_parsed.tm_mday,
+            )
+        else:
+            skipped.append(entry)
+            continue
+
+        articles.append(
+            Article(
+                title=entry.get("title", "Untitled"),
+                source=source_name,
+                publishedAt=published_at,
+                link=entry.get("link", ""),
+                summary=entry.get("summary", ""),
+                content=[c.value for c in entry.get("content", [])],
+            )
+        )
+    return articles, skipped
+
+
 class Press:
     def __init__(self, editionDate: date, feeds):
         self.editionDate = editionDate
@@ -97,26 +132,11 @@ class Press:
     def fetchArticles(self) -> List[Article]:
         articles: List[Article] = []
         for name, url in self.feeds.items():
-            fetched = feedparser.parse(url)
-            for entry in fetched.entries:
-                published_at = None
-                if "published" in entry:
-                    published_at = date(entry.published_parsed.tm_year, entry.published_parsed.tm_mon, entry.published_parsed.tm_mday)
-                elif "updated" in entry:
-                    published_at = date(entry.updated_parsed.tm_year, entry.updated_parsed.tm_mon, entry.updated_parsed.tm_mday)
-                else:
-                    print(f"No published/ updated date for feed {name}, entry {entry.get('title', 'Untitled')}... SKIPPING")
-                    continue
-
-                articles.append(
-                    Article(
-                        title=entry.get("title", "Untitled"),
-                        source=name,
-                        publishedAt=published_at,
-                        link=entry.get("link", ""),
-                        summary=entry.get("summary", ""),
-                        content=[c.value for c in entry.get("content", [])],
-                    )
+            feed_articles, skipped = parse_feed(name, url)
+            articles.extend(feed_articles)
+            for entry in skipped:
+                print(
+                    f"No published/ updated date for feed {name}, entry {entry.get('title', 'Untitled')}... SKIPPING"
                 )
 
         return articles
