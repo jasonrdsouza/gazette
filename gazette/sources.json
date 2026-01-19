@@ -44,10 +44,6 @@
         "url": "https://brandur.org/articles.atom"
     },
     {
-        "name": "CSV Base",
-        "url": "https://csvbase.com/blog/posts.rss"
-    },
-    {
         "name": "Cal Paterson",
         "url": "https://calpaterson.com/calpaterson.rss"
     },
@@ -64,8 +60,8 @@
         "url": "https://charity.wtf/feed/"
     },
     {
-        "name": "DHH",
-        "url": "https://world.hey.com/dhh/feed.atom"
+        "name": "CSV Base",
+        "url": "https://csvbase.com/blog/posts.rss"
     },
     {
         "name": "Dan Abramov",
@@ -78,6 +74,10 @@
     {
         "name": "David Crawshaw",
         "url": "https://crawshaw.io/atom.xml"
+    },
+    {
+        "name": "DHH",
+        "url": "https://world.hey.com/dhh/feed.atom"
     },
     {
         "name": "Drew Breunig",
@@ -252,12 +252,12 @@
         "url": "https://tonsky.me/atom.xml"
     },
     {
-        "name": "PFAB",
-        "url": "https://advancedbeginners.substack.com/feed"
-    },
-    {
         "name": "Paul Graham",
         "url": "https://filipesilva.github.io/paulgraham-rss/feed.rss"
+    },
+    {
+        "name": "PFAB",
+        "url": "https://advancedbeginners.substack.com/feed"
     },
     {
         "name": "Putanumonit",
@@ -348,12 +348,12 @@
         "url": "https://lethain.com/feeds.xml"
     },
     {
-        "name": "XKCD",
-        "url": "https://xkcd.com/rss.xml"
-    },
-    {
         "name": "Xe Iaso",
         "url": "https://xeiaso.net/blog.rss"
+    },
+    {
+        "name": "XKCD",
+        "url": "https://xkcd.com/rss.xml"
     },
     {
         "name": "Zed Blog",

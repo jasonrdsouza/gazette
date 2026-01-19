@@ -1,14 +1,36 @@
 import argparse
+import feedparser
 from collections import defaultdict
 from gazette.press import parse_feed
+from gazette.sources import add_source
 
 
 def main():
     parser = argparse.ArgumentParser(description="Analyze an RSS feed.")
     parser.add_argument("url", help="The URL of the RSS feed to analyze")
+    parser.add_argument(
+        "--add-source",
+        action="store_true",
+        help="Add the provided RSS feed to the sources json file",
+    )
     args = parser.parse_args()
 
     url = args.url
+
+    if args.add_source:
+        print(f"Fetching feed metadata for: {url}")
+        feed_data = feedparser.parse(url)
+        if hasattr(feed_data, "feed") and hasattr(feed_data.feed, "title"):
+            title = feed_data.feed.title
+            print(f"Found title: {title}")
+            if add_source(title, url):
+                print(f"Successfully added '{title}' to sources.")
+            else:
+                print(f"Source with URL '{url}' already exists.")
+        else:
+            print("Could not determine feed title. Cannot add source.")
+        print("")
+
     print(f"Analyzing feed: {url}\n")
 
     articles, skipped = parse_feed("Editor Source", url)
@@ -54,7 +76,9 @@ def main():
             print(f"  {key}: {history[key]}")
         print("")
     else:
-        print("No valid articles found (all were skipped or feed is empty of valid articles).")
+        print(
+            "No valid articles found (all were skipped or feed is empty of valid articles)."
+        )
         print("")
 
     if skipped:
