@@ -3,7 +3,7 @@ name = "gazette"
 version = "0.1.0"
 description = "personal newspaper service"
 authors = [{ name = "Jason Dsouza", email = "jasonrdsouza@gmail.com" }]
-requires-python = "~=3.13"
+requires-python = "~=3.13.0"
 readme = "README.md"
 dependencies = [
     "requests>=2.32.3,<3",
