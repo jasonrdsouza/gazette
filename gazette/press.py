@@ -74,7 +74,7 @@ class Edition:
 
     def writeFile(self, path="editions"):
         p = Path(path)
-        fullpath = p.joinpath(f"{self.publishDate.strftime("%Y%m%d")}.json")
+        fullpath = p.joinpath(f"{self.publishDate.strftime('%Y%m%d')}.json")
         with fullpath.open(mode="w") as f:
             json.dump(self, f, cls=EditionEncoder, sort_keys=True, indent=4)
 
@@ -136,7 +136,9 @@ class Press:
             feed_articles, skipped = parse_feed(name, url)
             articles.extend(feed_articles)
             for entry in skipped:
-                print(f"No published/ updated date for feed {name}, entry {entry.get('title', 'Untitled')}... SKIPPING")
+                print(
+                    f"No published/ updated date for feed {name}, entry {entry.get('title', 'Untitled')}... SKIPPING"
+                )
 
         return articles
 
@@ -146,9 +148,9 @@ class Press:
     #
     # In the future, I may include more filtering criteria based on topics, etc.
     def shouldPublish(self, lookbackDays: int, article: Article) -> bool:
-        return article.publishedAt <= self.editionDate and (self.editionDate - article.publishedAt) < timedelta(
-            days=lookbackDays
-        )
+        return article.publishedAt <= self.editionDate and (
+            self.editionDate - article.publishedAt
+        ) < timedelta(days=lookbackDays)
 
     # constructs a JSON "edition" payload which the frontend gazette
     # can parse/ display. Output file should include the date in the filename

@@ -1,0 +1,362 @@
+[
+    {
+        "name": "Adriano Caloiaro",
+        "url": "https://adriano.fyi/posts/index.xml"
+    },
+    {
+        "name": "Alex Chan",
+        "url": "https://alexwlchan.net/atom.xml"
+    },
+    {
+        "name": "Alex Kladov",
+        "url": "https://matklad.github.io/feed.xml"
+    },
+    {
+        "name": "Alex Molas",
+        "url": "https://www.alexmolas.com/feed.xml"
+    },
+    {
+        "name": "Andrej Karpathy",
+        "url": "https://karpathy.bearblog.dev/feed/"
+    },
+    {
+        "name": "Architecture Notes",
+        "url": "https://architecturenotes.co/feed"
+    },
+    {
+        "name": "Ben Hoyt",
+        "url": "https://benhoyt.com/writings/rss.xml"
+    },
+    {
+        "name": "Ben Kuhn",
+        "url": "https://www.benkuhn.net/index.xml"
+    },
+    {
+        "name": "Benjamin Ross Hoffman",
+        "url": "https://benjaminrosshoffman.com/feed/"
+    },
+    {
+        "name": "Bits About Money",
+        "url": "https://www.bitsaboutmoney.com/archive/rss/"
+    },
+    {
+        "name": "Brandur Leach",
+        "url": "https://brandur.org/articles.atom"
+    },
+    {
+        "name": "CSV Base",
+        "url": "https://csvbase.com/blog/posts.rss"
+    },
+    {
+        "name": "Cal Paterson",
+        "url": "https://calpaterson.com/calpaterson.rss"
+    },
+    {
+        "name": "Calvin French-Owen",
+        "url": "https://calv.info/atom.xml"
+    },
+    {
+        "name": "Cate Hall",
+        "url": "https://usefulfictions.substack.com/feed"
+    },
+    {
+        "name": "Charity Majors",
+        "url": "https://charity.wtf/feed/"
+    },
+    {
+        "name": "DHH",
+        "url": "https://world.hey.com/dhh/feed.atom"
+    },
+    {
+        "name": "Dan Abramov",
+        "url": "https://overreacted.io/atom.xml"
+    },
+    {
+        "name": "DanLuu",
+        "url": "https://danluu.com/atom.xml"
+    },
+    {
+        "name": "David Crawshaw",
+        "url": "https://crawshaw.io/atom.xml"
+    },
+    {
+        "name": "Drew Breunig",
+        "url": "https://www.dbreunig.com/feed.xml"
+    },
+    {
+        "name": "Dynomight",
+        "url": "https://dynomight.net/feed.xml"
+    },
+    {
+        "name": "Eric Fritz",
+        "url": "https://www.eric-fritz.com/index.xml"
+    },
+    {
+        "name": "Eric Zakariasson",
+        "url": "https://anyblockers.com/rss.xml"
+    },
+    {
+        "name": "Ethan Mollick",
+        "url": "https://www.oneusefulthing.org/feed"
+    },
+    {
+        "name": "Eugene Wei",
+        "url": "https://eugenewei.substack.com/feed"
+    },
+    {
+        "name": "Eugene Yan",
+        "url": "https://eugeneyan.com/rss/"
+    },
+    {
+        "name": "Evan Schwartz",
+        "url": "https://emschwartz.me/feed/?type=rss"
+    },
+    {
+        "name": "Everything Studies",
+        "url": "https://everythingstudies.com/feed/"
+    },
+    {
+        "name": "Facundo Olano",
+        "url": "https://olano.dev/feed.xml"
+    },
+    {
+        "name": "Fly.io Blog",
+        "url": "https://fly.io/blog/feed.xml"
+    },
+    {
+        "name": "Geoffrey Huntley",
+        "url": "https://ghuntley.com/rss/"
+    },
+    {
+        "name": "Geoffrey Litt",
+        "url": "https://www.geoffreylitt.com/feed.xml"
+    },
+    {
+        "name": "Go Blog",
+        "url": "https://go.dev/blog/feed.atom"
+    },
+    {
+        "name": "Good Reason",
+        "url": "https://goodreason.substack.com/feed"
+    },
+    {
+        "name": "Grant Slatton",
+        "url": "https://grantslatton.com/rss.xml"
+    },
+    {
+        "name": "Harper Reed",
+        "url": "https://harper.blog/index.xml"
+    },
+    {
+        "name": "Herman Martinus",
+        "url": "https://herman.bearblog.dev/feed/"
+    },
+    {
+        "name": "Hillel Wayne",
+        "url": "https://buttondown.com/hillelwayne/rss"
+    },
+    {
+        "name": "Ink & Switch",
+        "url": "https://www.inkandswitch.com/index.xml"
+    },
+    {
+        "name": "Jason Dsouza",
+        "url": "https://jasondsouza.org/rss.xml"
+    },
+    {
+        "name": "Jason Fried",
+        "url": "https://world.hey.com/jason/feed.atom"
+    },
+    {
+        "name": "Jeff Atwood",
+        "url": "https://blog.codinghorror.com/rss/"
+    },
+    {
+        "name": "Jesse Vincent",
+        "url": "https://blog.fsck.com/feed/feed.xml"
+    },
+    {
+        "name": "Joel Spolsky",
+        "url": "https://www.joelonsoftware.com/feed/"
+    },
+    {
+        "name": "John Loeber",
+        "url": "https://loeber.substack.com/feed"
+    },
+    {
+        "name": "Jonas Hietala",
+        "url": "https://www.jonashietala.se/feed.xml"
+    },
+    {
+        "name": "Kevin Simler",
+        "url": "https://feeds.feedburner.com/MeltingAsphalt"
+    },
+    {
+        "name": "Linus Lee",
+        "url": "https://thesephist.com/index.xml"
+    },
+    {
+        "name": "Lucalp",
+        "url": "https://lucalp.dev/feed/"
+    },
+    {
+        "name": "Lukas Petersson",
+        "url": "https://lukaspetersson.com/feed.xml"
+    },
+    {
+        "name": "Maggie Appleton",
+        "url": "https://maggieappleton.com/rss.xml"
+    },
+    {
+        "name": "Margins",
+        "url": "https://www.readmargins.com/feed"
+    },
+    {
+        "name": "Matt Webb",
+        "url": "https://interconnected.org/home/feed"
+    },
+    {
+        "name": "Max Bernstein",
+        "url": "https://bernsteinbear.com/feed.xml"
+    },
+    {
+        "name": "Modern Love - NYT",
+        "url": "https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/column/modern-love/rss.xml"
+    },
+    {
+        "name": "Nabeel Qureshi",
+        "url": "https://nabeelqu.co/rss"
+    },
+    {
+        "name": "Nadia Asparouhova",
+        "url": "https://nadia.xyz/feed.xml"
+    },
+    {
+        "name": "Namanyay Goel",
+        "url": "https://nmn.gl/blog/feed.xml"
+    },
+    {
+        "name": "Narrative Ark",
+        "url": "https://www.narrativeark.xyz/feed"
+    },
+    {
+        "name": "Nelson Elhage",
+        "url": "https://blog.nelhage.com/atom.xml"
+    },
+    {
+        "name": "Nikhil Suresh",
+        "url": "https://ludic.mataroa.blog/rss/"
+    },
+    {
+        "name": "Nikita Prokopov",
+        "url": "https://tonsky.me/atom.xml"
+    },
+    {
+        "name": "PFAB",
+        "url": "https://advancedbeginners.substack.com/feed"
+    },
+    {
+        "name": "Paul Graham",
+        "url": "https://filipesilva.github.io/paulgraham-rss/feed.rss"
+    },
+    {
+        "name": "Putanumonit",
+        "url": "https://putanumonit.com/feed/"
+    },
+    {
+        "name": "QNTM",
+        "url": "https://qntm.org/rss.php"
+    },
+    {
+        "name": "Rands in Repose",
+        "url": "https://randsinrepose.com/feed/"
+    },
+    {
+        "name": "Robert Heaton",
+        "url": "https://robertheaton.com/feed.xml"
+    },
+    {
+        "name": "Robert Nystrom",
+        "url": "https://journal.stuffwithstuff.com/rss.xml"
+    },
+    {
+        "name": "Robin Sloan",
+        "url": "https://www.robinsloan.com/lab.xml"
+    },
+    {
+        "name": "Shrivu Shankar",
+        "url": "https://blog.sshh.io/feed"
+    },
+    {
+        "name": "Simon Spati",
+        "url": "https://www.ssp.sh/index.xml"
+    },
+    {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/atom/entries/"
+    },
+    {
+        "name": "Sketch Blog",
+        "url": "https://sketch.dev/atom.xml"
+    },
+    {
+        "name": "SlateStarCodex",
+        "url": "https://www.astralcodexten.com/feed"
+    },
+    {
+        "name": "Squishy Computer",
+        "url": "https://newsletter.squishy.computer/feed"
+    },
+    {
+        "name": "Sriram Krishnan",
+        "url": "https://sriramk.substack.com/feed"
+    },
+    {
+        "name": "Stephen Wolfram",
+        "url": "https://writings.stephenwolfram.com/feed/"
+    },
+    {
+        "name": "Stirred Blog",
+        "url": "https://stirredblog.com/feed/"
+    },
+    {
+        "name": "Taras Glek",
+        "url": "https://taras.glek.net/index.xml"
+    },
+    {
+        "name": "The Sephist",
+        "url": "https://buttondown.com/thesephist/rss"
+    },
+    {
+        "name": "TheZvi",
+        "url": "https://thezvi.wordpress.com/feed/"
+    },
+    {
+        "name": "Two Bit History",
+        "url": "https://twobithistory.org/feed.xml"
+    },
+    {
+        "name": "Vicki Boykis",
+        "url": "https://vickiboykis.com/index.xml"
+    },
+    {
+        "name": "WaitButWhy",
+        "url": "https://waitbutwhy.com/feed"
+    },
+    {
+        "name": "Will Larson",
+        "url": "https://lethain.com/feeds.xml"
+    },
+    {
+        "name": "XKCD",
+        "url": "https://xkcd.com/rss.xml"
+    },
+    {
+        "name": "Xe Iaso",
+        "url": "https://xeiaso.net/blog.rss"
+    },
+    {
+        "name": "Zed Blog",
+        "url": "https://zed.dev/blog.rss"
+    }
+]

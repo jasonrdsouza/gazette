@@ -1,92 +1,23 @@
-PUBLIC_FEEDS = {
-    "Adriano Caloiaro": "https://adriano.fyi/posts/index.xml",
-    "Alex Chan": "https://alexwlchan.net/atom.xml",
-    "Alex Kladov": "https://matklad.github.io/feed.xml",
-    "Alex Molas": "https://www.alexmolas.com/feed.xml",
-    "Andrej Karpathy": "https://karpathy.bearblog.dev/feed/",
-    "Architecture Notes": "https://architecturenotes.co/feed",
-    "Ben Hoyt": "https://benhoyt.com/writings/rss.xml",
-    "Ben Kuhn": "https://www.benkuhn.net/index.xml",
-    "Benjamin Ross Hoffman": "https://benjaminrosshoffman.com/feed/",
-    "Bits About Money": "https://www.bitsaboutmoney.com/archive/rss/",
-    "Brandur Leach": "https://brandur.org/articles.atom",
-    "CSV Base": "https://csvbase.com/blog/posts.rss",
-    "Cal Paterson": "https://calpaterson.com/calpaterson.rss",
-    "Calvin French-Owen": "https://calv.info/atom.xml",
-    "Cate Hall": "https://usefulfictions.substack.com/feed",
-    "Charity Majors": "https://charity.wtf/feed/",
-    "DHH": "https://world.hey.com/dhh/feed.atom",
-    "Dan Abramov": "https://overreacted.io/atom.xml",
-    "DanLuu": "https://danluu.com/atom.xml",
-    "David Crawshaw": "https://crawshaw.io/atom.xml",
-    "Drew Breunig": "https://www.dbreunig.com/feed.xml",
-    "Dynomight": "https://dynomight.net/feed.xml",
-    "Eric Fritz": "https://www.eric-fritz.com/index.xml",
-    "Eric Zakariasson": "https://anyblockers.com/rss.xml",
-    "Ethan Mollick": "https://www.oneusefulthing.org/feed",
-    "Eugene Wei": "https://eugenewei.substack.com/feed",
-    "Eugene Yan": "https://eugeneyan.com/rss/",
-    "Evan Schwartz": "https://emschwartz.me/feed/?type=rss",
-    "Everything Studies": "https://everythingstudies.com/feed/",
-    "Facundo Olano": "https://olano.dev/feed.xml",
-    "Fly.io Blog": "https://fly.io/blog/feed.xml",
-    "Geoffrey Huntley": "https://ghuntley.com/rss/",
-    "Geoffrey Litt": "https://www.geoffreylitt.com/feed.xml",
-    "Go Blog": "https://go.dev/blog/feed.atom",
-    "Good Reason": "https://goodreason.substack.com/feed",
-    "Grant Slatton": "https://grantslatton.com/rss.xml",
-    "Harper Reed": "https://harper.blog/index.xml",
-    "Herman Martinus": "https://herman.bearblog.dev/feed/",
-    "Hillel Wayne": "https://buttondown.com/hillelwayne/rss",
-    "Ink & Switch": "https://www.inkandswitch.com/index.xml",
-    "Jason Dsouza": "https://jasondsouza.org/rss.xml",
-    "Jason Fried": "https://world.hey.com/jason/feed.atom",
-    "Jeff Atwood": "https://blog.codinghorror.com/rss/",
-    "Jesse Vincent": "https://blog.fsck.com/feed/feed.xml",
-    "Joel Spolsky": "https://www.joelonsoftware.com/feed/",
-    "John Loeber": "https://loeber.substack.com/feed",
-    "Jonas Hietala": "https://www.jonashietala.se/feed.xml",
-    "Kevin Simler": "https://feeds.feedburner.com/MeltingAsphalt",
-    "Linus Lee": "https://thesephist.com/index.xml",
-    "Lucalp": "https://lucalp.dev/feed/",
-    "Lukas Petersson": "https://lukaspetersson.com/feed.xml",
-    "Maggie Appleton": "https://maggieappleton.com/rss.xml",
-    "Margins": "https://www.readmargins.com/feed",
-    "Matt Webb": "https://interconnected.org/home/feed",
-    "Max Bernstein": "https://bernsteinbear.com/feed.xml",
-    "Modern Love - NYT": "https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/column/modern-love/rss.xml",
-    "Nabeel Qureshi": "https://nabeelqu.co/rss",
-    "Nadia Asparouhova": "https://nadia.xyz/feed.xml",
-    "Namanyay Goel": "https://nmn.gl/blog/feed.xml",
-    "Narrative Ark": "https://www.narrativeark.xyz/feed",
-    "Nelson Elhage": "https://blog.nelhage.com/atom.xml",
-    "Nikhil Suresh": "https://ludic.mataroa.blog/rss/",
-    "Nikita Prokopov": "https://tonsky.me/atom.xml",
-    "PFAB": "https://advancedbeginners.substack.com/feed",
-    "Paul Graham": "https://filipesilva.github.io/paulgraham-rss/feed.rss",
-    "Putanumonit": "https://putanumonit.com/feed/",
-    "QNTM": "https://qntm.org/rss.php",
-    "Rands in Repose": "https://randsinrepose.com/feed/",
-    "Robert Heaton": "https://robertheaton.com/feed.xml",
-    "Robert Nystrom": "https://journal.stuffwithstuff.com/rss.xml",
-    "Robin Sloan": "https://www.robinsloan.com/lab.xml",
-    "Shrivu Shankar": "https://blog.sshh.io/feed",
-    "Simon Spati": "https://www.ssp.sh/index.xml",
-    "Simon Willison": "https://simonwillison.net/atom/entries/",
-    "Sketch Blog": "https://sketch.dev/atom.xml",
-    "SlateStarCodex": "https://www.astralcodexten.com/feed",
-    "Squishy Computer": "https://newsletter.squishy.computer/feed",
-    "Sriram Krishnan": "https://sriramk.substack.com/feed",
-    "Stephen Wolfram": "https://writings.stephenwolfram.com/feed/",
-    "Stirred Blog": "https://stirredblog.com/feed/",
-    "Taras Glek": "https://taras.glek.net/index.xml",
-    "The Sephist": "https://buttondown.com/thesephist/rss",
-    "TheZvi": "https://thezvi.wordpress.com/feed/",
-    "Two Bit History": "https://twobithistory.org/feed.xml",
-    "Vicki Boykis": "https://vickiboykis.com/index.xml",
-    "WaitButWhy": "https://waitbutwhy.com/feed",
-    "Will Larson": "https://lethain.com/feeds.xml",
-    "XKCD": "https://xkcd.com/rss.xml",
-    "Xe Iaso": "https://xeiaso.net/blog.rss",
-    "Zed Blog": "https://zed.dev/blog.rss",
-}
+import json
+import pathlib
+
+# Get the directory where this file (sources.py) is located
+CURRENT_DIR = pathlib.Path(__file__).parent
+
+# Path to the sources.json file
+SOURCES_FILE = CURRENT_DIR / "sources.json"
+
+
+def load_sources():
+    with open(SOURCES_FILE, "r") as f:
+        data = json.load(f)
+
+    # Convert the list of dicts [{"name": "...", "url": "..."}] back to the expected dict format {name: url}
+    # used by the rest of the application
+    feeds = {}
+    for source in data:
+        feeds[source["name"]] = source["url"]
+    return feeds
+
+
+PUBLIC_FEEDS = load_sources()
