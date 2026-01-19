@@ -26,7 +26,18 @@ def main():
         if not title:
             print(f"Fetching feed metadata for: {url}")
             feed_data = feedparser.parse(url)
-            if hasattr(feed_data, "feed") and hasattr(feed_data.feed, "title"):
+
+            # Try to find author
+            if hasattr(feed_data, "feed") and hasattr(feed_data.feed, "author"):
+                title = feed_data.feed.author
+                print(f"Found author: {title}")
+
+            # Fallback to title
+            if (
+                not title
+                and hasattr(feed_data, "feed")
+                and hasattr(feed_data.feed, "title")
+            ):
                 title = feed_data.feed.title
                 print(f"Found title: {title}")
 
@@ -54,35 +65,50 @@ def main():
     articles.sort(key=lambda a: a.publishedAt, reverse=True)
 
     if articles:
-        newest = articles[0].publishedAt
-        oldest = articles[-1].publishedAt
-        days_span = (newest - oldest).days
+        # Filter out articles with extremely old dates (likely parsing errors or default values)
+        # For this analysis, we'll consider anything before 1990 as invalid for frequency calculation
+        valid_articles = [a for a in articles if a.publishedAt.year >= 1990]
 
-        # Avoid division by zero and handle short spans
-        if days_span == 0:
-            weeks = 1 / 7  # Treat as 1 day
+        if not valid_articles:
+            print("No articles found with valid dates (>= 1990).")
         else:
-            weeks = days_span / 7
+            newest = valid_articles[0].publishedAt
+            oldest = valid_articles[-1].publishedAt
+            days_span = (newest - oldest).days
 
-        avg_per_week = total_articles / weeks
+            # Avoid division by zero and handle short spans
+            if days_span == 0:
+                weeks = 1 / 7  # Treat as 1 day
+            else:
+                weeks = days_span / 7
 
-        print(f"Total Articles: {total_articles}")
-        print(f"Date Range: {oldest} to {newest} ({days_span} days)")
-        print(f"Frequency: {avg_per_week:.2f} entries / week")
-        print("")
+            avg_per_week = len(valid_articles) / weeks
 
-        print("Historical Distribution:")
-        # Group by YYYY-MM
-        history = defaultdict(int)
-        for a in articles:
-            key = a.publishedAt.strftime("%Y-%m")
-            history[key] += 1
+            print(f"Total Articles: {total_articles}")
+            print(f"Date Range: {oldest} to {newest} ({days_span} days)")
+            print(f"Frequency: {avg_per_week:.2f} entries / week")
+            print("")
 
-        # Sort keys
-        sorted_keys = sorted(history.keys(), reverse=True)
-        for key in sorted_keys:
-            print(f"  {key}: {history[key]}")
-        print("")
+            print("Recent Posts:")
+            for i, article in enumerate(valid_articles[:5]):
+                print(f"  {article.publishedAt} - {article.title}")
+                print(f"    {article.link}")
+            print("")
+
+            print("Historical Distribution:")
+            # Group by YYYY-MM
+            history = defaultdict(int)
+            for a in (
+                articles
+            ):  # Still show distribution for all, even invalid ones, so user sees them
+                key = a.publishedAt.strftime("%Y-%m")
+                history[key] += 1
+
+            # Sort keys
+            sorted_keys = sorted(history.keys(), reverse=True)
+            for key in sorted_keys:
+                print(f"  {key}: {history[key]}")
+            print("")
     else:
         print(
             "No valid articles found (all were skipped or feed is empty of valid articles)."

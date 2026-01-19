@@ -4,8 +4,16 @@
         "url": "https://adriano.fyi/posts/index.xml"
     },
     {
+        "name": "Ahmad Alfy",
+        "url": "https://alfy.blog/feed.xml"
+    },
+    {
         "name": "Alex Chan",
         "url": "https://alexwlchan.net/atom.xml"
+    },
+    {
+        "name": "Alex Jacobs",
+        "url": "https://alex-jacobs.com/index.xml"
     },
     {
         "name": "Alex Kladov",
@@ -298,6 +306,10 @@
     {
         "name": "Robin Sloan",
         "url": "https://www.robinsloan.com/lab.xml"
+    },
+    {
+        "name": "Sasha Chapin",
+        "url": "https://sashachapin.substack.com/feed"
     },
     {
         "name": "Shreyas Hariharan",
