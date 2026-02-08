@@ -1,0 +1,32 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://www.nytimes.com/2026/02/06/style/modern-love-seeking-a-man-who-doesnt-throw-tantrums.html",
+            "publishedAt": "2026-02-07",
+            "source": "Modern Love - NYT",
+            "summary": "I had set my bar for relationships so low that any man who didn\u2019t yell easily cleared it.",
+            "title": "Seeking a Man Who Doesn\u2019t Throw Tantrums"
+        },
+        {
+            "content": [],
+            "link": "https://simonwillison.net/2026/Feb/7/software-factory/#atom-entries",
+            "publishedAt": "2026-02-07",
+            "source": "Simon Willison",
+            "summary": "<p>Last week <a href=\"https://simonwillison.net/2026/Jan/28/the-five-levels/\">I hinted at</a> a demo I had seen from a team implementing what Dan Shapiro called <a href=\"https://www.danshapiro.com/blog/2026/01/the-five-levels-from-spicy-autocomplete-to-the-software-factory/\">the Dark Factory</a> level of AI adoption, where no human even looks at the code the coding agents are producing. That team was part of StrongDM, and they've just shared the first public description of how they are working in <a href=\"https://factory.strongdm.ai\">Software Factories and the Agentic Moment</a>:</p> <blockquote> <p>We built a <strong>Software Factory</strong>: non-interactive development where specs + scenarios drive agents that write code, run harnesses, and converge without human review. [...]</p> <p>In k\u014dan or mantra form:</p> <ul> <li>Why am I doing this? (implied: the model should be doing this instead)</li> </ul> <p>In rule form:</p> <ul> <li>Code <strong>must not be</strong> written by humans</li> <li>Code <strong>must not be</strong> reviewed by humans</li> </ul> <p>Finally, in practical form:</p> <ul> <li>If you haven't spent at least <strong>$1,000 on tokens today</strong> per human engineer, your software factory has room for improvement</li> </ul> </blockquote> <p>I think the most interesting of these, without a doubt, is \"Code <strong>must not be</strong> reviewed by humans\". How could that <em>possibly</em> be a sensible strategy when we all know how prone LLMs are to making <a href=\"https://simonwillison.net/2025/Mar/2/kellan-elliott-mccrea/\">inhuman mistakes</a>?</p> <p>I've seen many",
+            "title": "How StrongDM's AI team build serious software without even looking at the code"
+        },
+        {
+            "content": [
+                "<p>I don't have any contacts at Zendesk, but I'm noticing another massive wave of spam from their platform:</p>\n        <figure class=\"max-w-3xl mx-auto not-prose w-full undefined\"><a href=\"https://files.xeiaso.net/notes/2026/zendesk-get-shit-together/zendesk-spam.jpg\"><source type=\"image/avif\" /><source type=\"image/webp\" /><img src=\"https://files.xeiaso.net/notes/2026/zendesk-get-shit-together/zendesk-spam.jpg\" /></a></figure>\n        <p>If you're seeing this and either work at Zendesk or know someone that does, please have them actually treat this as an issue and not hiding behind <a href=\"https://support.zendesk.com/hc/en-us/articles/9833274501786-Important-notice-about-recent-spam-emails-via-Zendesk\">&quot;just delete the emails lol&quot;</a>.</p>\n        <center><img alt=\"Cadey is percussive-maintenance\" src=\"https://stickers.xeiaso.net/sticker/cadey/percussive-maintenance\" /></center>"
+            ],
+            "link": "https://xeiaso.net/notes/2026/zendesk-get-shit-together/",
+            "publishedAt": "2026-02-07",
+            "source": "Xe Iaso",
+            "summary": "<p>I don't have any contacts at Zendesk, but I'm noticing another massive wave of spam from their platform:</p> <figure class=\"max-w-3xl mx-auto not-prose w-full undefined\"><a href=\"https://files.xeiaso.net/notes/2026/zendesk-get-shit-together/zendesk-spam.jpg\"><source type=\"image/avif\" /><source type=\"image/webp\" /><img src=\"https://files.xeiaso.net/notes/2026/zendesk-get-shit-together/zendesk-spam.jpg\" /></a></figure> <p>If you're seeing this and either work at Zendesk or know someone that does, please have them actually treat this as an issue and not hiding behind <a href=\"https://support.zendesk.com/hc/en-us/articles/9833274501786-Important-notice-about-recent-spam-emails-via-Zendesk\">&quot;just delete the emails lol&quot;</a>.</p> <center><img alt=\"Cadey is percussive-maintenance\" src=\"https://stickers.xeiaso.net/sticker/cadey/percussive-maintenance\" /></center>",
+            "title": "Zendesk, get your shit together please"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2026-02-07"
+}
