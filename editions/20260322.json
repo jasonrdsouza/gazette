@@ -1,0 +1,22 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://www.nytimes.com/2026/03/13/style/modern-love-yes-he-tried-to-woo-me-by-drone.html",
+            "publishedAt": "2026-03-22",
+            "source": "Modern Love - NYT",
+            "summary": "In Nigeria, a pastor once prayed for my marital destiny.",
+            "title": "Oh, to Be Single Without Apology!"
+        },
+        {
+            "content": [],
+            "link": "https://simonwillison.net/2026/Mar/22/starlette/#atom-entries",
+            "publishedAt": "2026-03-22",
+            "source": "Simon Willison",
+            "summary": "<p><a href=\"https://marcelotryle.com/blog/2026/03/22/starlette-10-is-here/\">Starlette 1.0 is out</a>! This is a really big deal. I think Starlette may be the Python framework with the most usage compared to its relatively low brand recognition because Starlette is the foundation of <a href=\"https://fastapi.tiangolo.com/\">FastAPI</a>, which has attracted a huge amount of buzz that seems to have overshadowed Starlette itself.</p> <p>Kim Christie started working on Starlette in 2018 and it quickly became my favorite out of the new breed of Python ASGI frameworks. The only reason I didn't use it as the basis for my own <a href=\"https://datasette.io/\">Datasette</a> project was that it didn't yet promise stability, and I was determined to provide a stable API for Datasette's own plugins... albeit I still haven't been brave enough to ship my own 1.0 release (after 26 alphas and counting)!</p> <p>Then in September 2025 Marcelo Trylesinski <a href=\"https://github.com/Kludex/starlette/discussions/2997\">announced that Starlette and Uvicorn were transferring to their GitHub account</a>, in recognition of their many years of contributions and to make it easier for them to receive sponsorship against those projects.</p> <p>The 1.0 version has a few breaking changes compared to the 0.x series, described in <a href=\"https://starlette.dev/release-notes/#100rc1-february-23-2026\">the release notes for 1.0.0rc1</a> that came out in February.</p> <p>The most notable of these",
+            "title": "Experimenting with Starlette 1.0 with Claude skills"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2026-03-22"
+}
