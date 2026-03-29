@@ -1,0 +1,14 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://interconnected.org/home/2026/03/28/architecture",
+            "publishedAt": "2026-03-28",
+            "source": "Matt Webb",
+            "summary": "<div> <p>Once upon a time I kept on meeting architects who had ended up working with the web.</p> <p>I asked why. Some good answers:</p> <ul> <li>Architects think about how people move between spaces (pages) and what that means for user experience - <em>this was at a time when web designers often came from graphic design and drew more on single page layout</em></li> <li>Architects think about negative space, and how what you put in a space shapes social behaviour \u2013 <em>this was at a time when web before the social web</em></li> <li>Architects have to work with a lot of different disciplines to make something, and all of those people believe they\u2019re the most important person in the room, and that\u2019s what product teams are like too - <em>lol</em></li> </ul> <p>I\u2019m not an architect but some of my favourite books are about architecture.</p> <p>Here are three:</p> <ul> <li><a href=\"https://en.wikipedia.org/wiki/How_Buildings_Learn\">How Buildings Learn: What Happens After They\u2019re Built</a> (1994) by Stewart Brand, which popularised that pace layers diagram</li> <li><a href=\"https://en.wikipedia.org/wiki/A_Pattern_Language\">A Pattern Language: Towns, Buildings, Construction</a> (1977) by Christopher Alexander, which is infinitely applicable when <a href=\"https://interconnected.org/home/2022/01/21/social_gradient\">designing for multiplayer</a></li> <li><a href=\"https://www.amazon.co.uk/101-Things-Learned-Architecture-School-ebook/dp/B08S74443T\">101 Things I Learned in Architecture School</a> (2007) by Matthew Frederick, gifted to me by",
+            "title": "An appreciation for (technical) architecture"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2026-03-28"
+}
