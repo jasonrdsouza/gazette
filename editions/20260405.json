@@ -1,0 +1,22 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://outofdesk.netlify.app/attention-series",
+            "publishedAt": "2026-04-05",
+            "source": "Gaurav Ramesh",
+            "summary": "",
+            "title": "Attention is All They Need - A Series on Human Attention"
+        },
+        {
+            "content": [],
+            "link": "https://vickiboykis.com/2026/04/05/nasa-elements-of-engineering-excellence/",
+            "publishedAt": "2026-04-05",
+            "source": "Vicki Boykis",
+            "summary": "<p>I stumbled across <a href=\"https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20130000445.pdf\">this report from NASA</a>, &ldquo;Elements of Engineering Excellence&rdquo;, published in 2012,</p> <blockquote> <p>The inspiration for this paper originated in discussions with the director of MSFC Engineering in 2006 who asked that we investigate the question: \u201cHow do you achieve excellence in aerospace engineering?\u201d The authors\u2019 approach to answering this question was a short course on Excellence in Engineering which is documented in this report.</p></blockquote> <p>The report talks about five areas of an organization that led to failures at NASA:</p> <ol> <li>Shifting from engineering \u201chands-on\u201d and \u201cexcellence\u201d to \u201cinsight/oversight\u201d. Lack of ownership.</li> <li>\u201cNormalization of the deviances\u201d. Not questioning anomalies.</li> <li>Lack of critical thinking. Over-reliance on procedures and computer codes.</li> <li>Decentralization of authority.</li> <li>Organizational and technical complexity.</li> </ol> <p>And I found this first point particularly relevant in the age of agents:</p> <blockquote> <p>The five root causes are not listed in any priority order. The first root cause listed deals with a shift in the NASA culture, where the organization moved from a hands-on engineering approach to an insight/oversight approach. In the early days the heritage was basically the arsenal approach where you designed, built and verified the system before contracting it out for production. The engineers really understood",
+            "title": "NASA Elements of Engineering Excellence"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2026-04-05"
+}
