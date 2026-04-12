@@ -1,0 +1,14 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://lucumr.pocoo.org/2026/4/11/the-center-has-a-bias/",
+            "publishedAt": "2026-04-11",
+            "source": "Armin Ronacher",
+            "summary": "<p>Whenever a new technology shows up, the conversation quickly splits into camps. There are the people who reject it outright, and there are the people who seem to adopt it with religious enthusiasm. For more than a year now, no topic has been more polarising than AI coding agents.</p> <p>What I keep noticing is that a lot of the criticism directed at these tools is perfectly legitimate, but it often comes from people without a meaningful amount of direct experience with them. They are not necessarily wrong. In fact, many of them cite studies, polls and all kinds of sources that themselves spent time investigating and surveying. And quite legitimately they identified real issues: the output can be bad, the security implications are scary, the economics are strange and potentially unsustainable, there is an environmental impact, the social consequences are unclear, and the hype is exhausting.</p> <p>But there is something important missing from that criticism when it comes from a position of non-use: it is too abstract.</p> <p>There is a difference between saying &#8220;this looks flawed in principle&#8221; and saying &#8220;I used this enough to understand where it breaks, where it helps, and how it changes my work.&#8221; The second",
+            "title": "The Center Has a Bias"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2026-04-11"
+}
