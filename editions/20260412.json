@@ -1,0 +1,30 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://benhoyt.com/writings/indecisive-ai-agent/",
+            "publishedAt": "2026-04-12",
+            "source": "Ben Hoyt",
+            "summary": "In which I have some fun with Claude Opus 4.6, a seemingly indecisive AI coding agent.",
+            "title": "Fun with an indecisive AI coding agent"
+        },
+        {
+            "content": [],
+            "link": "https://outofdesk.netlify.app/all-radar-no-compass",
+            "publishedAt": "2026-04-12",
+            "source": "Gaurav Ramesh",
+            "summary": "",
+            "title": "All Radar, No Compass"
+        },
+        {
+            "content": [],
+            "link": "https://www.robinsloan.com/lab/tinfoil/",
+            "publishedAt": "2026-04-12",
+            "source": "Robin Sloan",
+            "summary": "<p>This is the good stuff. <a href=\"https://www.robinsloan.com/lab/tinfoil/\">Read here.</a></p>",
+            "title": "Tinfoil"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2026-04-12"
+}
