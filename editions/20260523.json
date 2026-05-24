@@ -1,0 +1,14 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://outofdesk.netlify.app/discord-voice-outage-system-design",
+            "publishedAt": "2026-05-23",
+            "source": "Gaurav Ramesh",
+            "summary": "",
+            "title": "System Design Lessons from a Discord Voice Outage"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2026-05-23"
+}
