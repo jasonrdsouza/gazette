@@ -1,0 +1,46 @@
+{
+    "articles": [
+        {
+            "content": [],
+            "link": "https://lucumr.pocoo.org/2026/6/10/gaslighting/",
+            "publishedAt": "2026-06-10",
+            "source": "Armin Ronacher",
+            "summary": "<p>I have been a staunch supporter of Open Source for a long time, including <a href=\"https://lucumr.pocoo.org/2023/11/19/cathedral-and-bazaaar-licensing/\">experiments</a> <a href=\"https://lucumr.pocoo.org/2024/9/23/fsl-agpl-open-source-businesses/\">in</a> <a href=\"https://lucumr.pocoo.org/2024/9/19/open-source-tax/\">funding</a> <a href=\"https://lucumr.pocoo.org/2024/10/14/mixing-oss-and-money/\">it</a>. I&#8217;m a true believer in the idea that Open Source always wins in the long run, but not automatically and not quickly. Right now it is being stressed by AI slop, shifting contributor dynamics, the falling cost of producing code, and large companies learning to close doors behind them.</p> <p>A lot of that battle today is manipulation of the narrative. Opinion makers on social media and in business circles increasingly frame access as irresponsibility. That is why the EU&#8217;s DMA matters, even if many people (including myself) reflexively hate EU regulation. Apple&#8217;s fight over <a href=\"https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27/\">delayed AI features in Europe</a> is not about Brussels being annoying: it is about whether users can access their own devices and data. The phone is yours, the data is yours, yet Apple decides who may reach it and takes the agency away from you and then tries to make that sound like it is in your interest (supposedly it&#8217;s for your safety and security).</p> <p>The closer you get to the core of AI, the more this shows up. Anthropic has every financial",
+            "title": "Gaslighting Openness"
+        },
+        {
+            "content": [],
+            "link": "https://buttondown.com/hillelwayne/archive/nontrailing-separators-do-not-spark-joy/",
+            "publishedAt": "2026-06-10",
+            "source": "Hillel Wayne",
+            "summary": "<p>This is valid JSON:</p> <div class=\"codehilite\"><pre><span></span><code><span class=\"p\">{</span> <span class=\"w\"> </span><span class=\"nt\">&quot;a&quot;</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">1</span><span class=\"p\">,</span> <span class=\"w\"> </span><span class=\"nt\">&quot;b&quot;</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">2</span><span class=\"p\">,</span> <span class=\"w\"> </span><span class=\"nt\">&quot;c&quot;</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">3</span> <span class=\"p\">}</span> </code></pre></div> <p>This is invalid JSON:</p> <div class=\"codehilite\"><pre><span></span><code><span class=\"p\">{</span> <span class=\"w\"> </span><span class=\"nt\">&quot;a&quot;</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">1</span><span class=\"p\">,</span> <span class=\"w\"> </span><span class=\"nt\">&quot;b&quot;</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">2</span><span class=\"p\">,</span> <span class=\"w\"> </span><span class=\"nt\">&quot;c&quot;</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">3</span><span class=\"p\">,</span> <span class=\"p\">}</span> </code></pre></div> <p>The difference is the last comma. The <a href=\"https://www.json.org/json-en.html\" target=\"_blank\">JSON grammar</a> specifies that a comma can separate two members of an object but not postcede (\"trail\") a member. I think this was a design mistake. Say we want to add two new keys to the struct, one before the <code>\"a\"</code> member and one after the <code>\"c\"</code> member. Here's what it would look like if trailing commas were permitted:</p> <div class=\"codehilite\"><pre><span></span><code>{ <span class=\"gi\">+ &quot;x&quot;: 0,</span> <span class=\"w\"> </span> &quot;a&quot;: 1, <span class=\"w\"> </span> &quot;b&quot;: 2, <span class=\"w\"> </span> &quot;c&quot;: 3, <span class=\"gi\">+ &quot;y&quot;: 4,</span> } </code></pre></div> <p>It's the exact same text transformation regardless of where we add the key. In the current model, we instead have this:</p> <div class=\"codehilite\"><pre><span></span><code>{ <span class=\"gi\">+ &quot;x&quot;: 0,</span> <span class=\"w\"> </span> &quot;a&quot;: 1,",
+            "title": "Nontrailing separators do not spark joy"
+        },
+        {
+            "content": [],
+            "link": "https://www.nytimes.com/2026/06/10/style/tiny-modern-love-stories-the-right-answers-in-life.html",
+            "publishedAt": "2026-06-10",
+            "source": "Modern Love - NYT",
+            "summary": "Modern Love in miniature, featuring reader-submitted stories of no more than 100 words.",
+            "title": "Tiny Love Stories: \u2018The \u201cRight\u201d Answers in Life\u2019"
+        },
+        {
+            "content": [],
+            "link": "https://www.nytimes.com/2026/06/10/podcasts/modernlove-laverne-cox-is-ready-to-tell-the-truth-even-if-its-messy.html",
+            "publishedAt": "2026-06-10",
+            "source": "Modern Love - NYT",
+            "summary": "The actor always knew what she wanted. Getting there was more complicated.",
+            "title": "Modern Love Laverne Cox On Her Relationships"
+        },
+        {
+            "content": [],
+            "link": "https://xkcd.com/3257/",
+            "publishedAt": "2026-06-10",
+            "source": "XKCD",
+            "summary": "<img alt=\"'If you keep trying to spray your collaborators with the beam when they're not looking, I'm turning off the ion source and NO one will get to play with the beam!' --Physics's mom\" src=\"https://imgs.xkcd.com/comics/beam_pipe.png\" title=\"'If you keep trying to spray your collaborators with the beam when they're not looking, I'm turning off the ion source and NO one will get to play with the beam!' --Physics's mom\" />",
+            "title": "Beam Pipe"
+        }
+    ],
+    "lookbackDays": 1,
+    "publishDate": "2026-06-10"
+}
