@@ -54,7 +54,7 @@ def main():
             if add_source(feed_name, url):
                 print(f"Successfully added '{feed_name}' to sources.")
             else:
-                print(f"Source with URL '{url}' already exists.")
+                print(f"Source with name '{feed_name}' or URL '{url}' already exists.")
         else:
             print("Could not determine feed title. Cannot add source.")
         print("")

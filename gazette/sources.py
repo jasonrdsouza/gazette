@@ -28,9 +28,9 @@ def add_source(name: str, url: str) -> bool:
     with open(SOURCES_FILE, "r") as f:
         data = json.load(f)
 
-    # Check if URL already exists
+    # Check if URL or name already exists
     for source in data:
-        if source["url"] == url:
+        if source["url"] == url or source["name"] == name:
             return False
 
     # Add new source
