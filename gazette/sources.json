@@ -1,5 +1,9 @@
 [
     {
+        "name": "Addy Osmani",
+        "url": "https://addyosmani.com/rss.xml"
+    },
+    {
         "name": "Adriano Caloiaro",
         "url": "https://adriano.fyi/posts/index.xml"
     },
@@ -36,10 +40,6 @@
         "url": "https://lucumr.pocoo.org/feed.xml"
     },
     {
-        "name": "Asimov Press",
-        "url": "https://www.asimov.press/feed"
-    },
-    {
         "name": "Ben Hoyt",
         "url": "https://benhoyt.com/writings/rss.xml"
     },
@@ -54,6 +54,14 @@
     {
         "name": "Bits About Money",
         "url": "https://www.bitsaboutmoney.com/archive/rss/"
+    },
+    {
+        "name": "Boris Tane",
+        "url": "https://boristane.com/rss.xml"
+    },
+    {
+        "name": "Bram Cohen",
+        "url": "https://bramcohen.com/feed"
     },
     {
         "name": "Brandur Leach",
@@ -80,8 +88,16 @@
         "url": "https://charity.wtf/feed/"
     },
     {
+        "name": "Cocktail Virgin Blog",
+        "url": "https://cocktailvirgin.blogspot.com/feeds/posts/default"
+    },
+    {
         "name": "CSV Base",
         "url": "https://csvbase.com/blog/posts.rss"
+    },
+    {
+        "name": "Cube Flipper",
+        "url": "https://smoothbrains.net/atom.xml"
     },
     {
         "name": "Dan Abramov",
@@ -92,12 +108,24 @@
         "url": "https://newsletter.dancohen.org/rss.xml"
     },
     {
+        "name": "Dan Shapiro",
+        "url": "https://www.danshapiro.com/blog/feed/"
+    },
+    {
         "name": "DanLuu",
         "url": "https://danluu.com/atom.xml"
     },
     {
         "name": "David Crawshaw",
         "url": "https://crawshaw.io/atom.xml"
+    },
+    {
+        "name": "David Oks",
+        "url": "https://davidoks.blog/feed"
+    },
+    {
+        "name": "David Poll",
+        "url": "https://www.davidpoll.com/feed.xml"
     },
     {
         "name": "DHH",
@@ -142,6 +170,10 @@
     {
         "name": "Facundo Olano",
         "url": "https://olano.dev/feed.xml"
+    },
+    {
+        "name": "Filippo Valsorda",
+        "url": "https://words.filippo.io/rss/"
     },
     {
         "name": "Fly.io Blog",
@@ -224,6 +256,14 @@
         "url": "https://www.jonashietala.se/feed.xml"
     },
     {
+        "name": "Joseph E. Gonzalez",
+        "url": "https://frontierai.substack.com/feed"
+    },
+    {
+        "name": "Kevin Lynagh",
+        "url": "https://kevinlynagh.com/feed.xml"
+    },
+    {
         "name": "Kevin Simler",
         "url": "https://feeds.feedburner.com/MeltingAsphalt"
     },
@@ -248,12 +288,28 @@
         "url": "https://www.readmargins.com/feed"
     },
     {
+        "name": "Mario Zechner",
+        "url": "https://mariozechner.at/rss.xml"
+    },
+    {
+        "name": "Matt Brown",
+        "url": "https://notes.mtb.xyz/feed"
+    },
+    {
         "name": "Matt Webb",
         "url": "https://interconnected.org/home/feed"
     },
     {
         "name": "Max Bernstein",
         "url": "https://bernsteinbear.com/feed.xml"
+    },
+    {
+        "name": "Max Woolf",
+        "url": "https://minimaxir.com/post/index.xml"
+    },
+    {
+        "name": "Mislav Marohni\u0107",
+        "url": "https://mislav.net/feeds/dev.xml"
     },
     {
         "name": "Modern Love - NYT",
@@ -292,8 +348,16 @@
         "url": "https://filipesilva.github.io/paulgraham-rss/feed.rss"
     },
     {
+        "name": "Peter Wildeford",
+        "url": "https://blog.peterwildeford.com/feed"
+    },
+    {
         "name": "PFAB",
         "url": "https://advancedbeginners.substack.com/feed"
+    },
+    {
+        "name": "Prime Radiant Blog",
+        "url": "https://primeradiant.com/blog/atom.xml"
     },
     {
         "name": "Putanumonit",
@@ -318,6 +382,10 @@
     {
         "name": "Robin Sloan",
         "url": "https://www.robinsloan.com/lab.xml"
+    },
+    {
+        "name": "Rudolf Laine",
+        "url": "https://www.nosetgauge.com/feed"
     },
     {
         "name": "Sasha Chapin",
@@ -372,6 +440,10 @@
         "url": "https://stirredblog.com/feed/"
     },
     {
+        "name": "Tanya Verma",
+        "url": "https://tanyaverma.sh/feed.xml"
+    },
+    {
         "name": "Taras Glek",
         "url": "https://taras.glek.net/index.xml"
     },
@@ -380,12 +452,28 @@
         "url": "https://taylor.town/feed.xml"
     },
     {
+        "name": "Ted Kaminski",
+        "url": "https://www.tedinski.com/feed.xml"
+    },
+    {
+        "name": "The Phoenix Architecture",
+        "url": "https://aicoding.leaflet.pub/rss"
+    },
+    {
         "name": "The Sephist",
         "url": "https://buttondown.com/thesephist/rss"
     },
     {
         "name": "TheZvi",
         "url": "https://thezvi.wordpress.com/feed/"
+    },
+    {
+        "name": "Thomas H. Ptacek",
+        "url": "https://sockpuppet.org/blog/index.xml"
+    },
+    {
+        "name": "Tony Solomonik",
+        "url": "https://tontinton.com/atom.xml"
     },
     {
         "name": "Two Bit History",
@@ -400,6 +488,10 @@
         "url": "https://waitbutwhy.com/feed"
     },
     {
+        "name": "Wes McKinney",
+        "url": "https://wesmckinney.com/archives.xml"
+    },
+    {
         "name": "Will Larson",
         "url": "https://lethain.com/feeds.xml"
     },
@@ -410,9 +502,5 @@
     {
         "name": "XKCD",
         "url": "https://xkcd.com/rss.xml"
-    },
-    {
-        "name": "Zed Blog",
-        "url": "https://zed.dev/blog.rss"
     }
 ]
