@@ -89,25 +89,23 @@ class EditionEncoder(json.JSONEncoder):
         return super().default(obj)
 
 
+# feedparser only populates the `*_parsed` struct_time when it recognizes the
+# date format, so a feed with a malformed date (eg. a literal "Invalid Date")
+# still has the `published` key, but a None alongside it.
+def entry_date(entry: Any, key: str) -> Any:
+    parsed = entry.get(f"{key}_parsed")
+    if parsed is None:
+        return None
+    return date(parsed.tm_year, parsed.tm_mon, parsed.tm_mday)
+
+
 def parse_feed(source_name: str, url: str) -> Tuple[List[Article], List[Any]]:
     articles: List[Article] = []
     skipped: List[Any] = []
     fetched = feedparser.parse(url)
     for entry in fetched.entries:
-        published_at = None
-        if "published" in entry:
-            published_at = date(
-                entry.published_parsed.tm_year,
-                entry.published_parsed.tm_mon,
-                entry.published_parsed.tm_mday,
-            )
-        elif "updated" in entry:
-            published_at = date(
-                entry.updated_parsed.tm_year,
-                entry.updated_parsed.tm_mon,
-                entry.updated_parsed.tm_mday,
-            )
-        else:
+        published_at = entry_date(entry, "published") or entry_date(entry, "updated")
+        if published_at is None:
             skipped.append(entry)
             continue
 
@@ -137,7 +135,7 @@ class Press:
             articles.extend(feed_articles)
             for entry in skipped:
                 print(
-                    f"No published/ updated date for feed {name}, entry {entry.get('title', 'Untitled')}... SKIPPING"
+                    f"No usable published/ updated date for feed {name}, entry {entry.get('title', 'Untitled')}... SKIPPING"
                 )
 
         return articles
