@@ -99,10 +99,27 @@ def entry_date(entry: Any, key: str) -> Any:
     return date(parsed.tm_year, parsed.tm_mon, parsed.tm_mday)
 
 
+# A feed that yields nothing is usually broken rather than merely quiet (moved
+# URL, dead domain, unreachable host), but it fails silently otherwise, so say
+# so along with whatever reason feedparser managed to capture.
+def empty_feed_reason(fetched: Any) -> str:
+    status = getattr(fetched, "status", None)
+    if status is not None and status != 200:
+        return f"HTTP {status}"
+
+    exc = getattr(fetched, "bozo_exception", None)
+    if exc is not None:
+        return f"{type(exc).__name__}: {exc}"
+
+    return "no entries returned"
+
+
 def parse_feed(source_name: str, url: str) -> Tuple[List[Article], List[Any]]:
     articles: List[Article] = []
     skipped: List[Any] = []
     fetched = feedparser.parse(url)
+    if not fetched.entries:
+        print(f"WARNING: feed {source_name} ({url}) is empty: {empty_feed_reason(fetched)}")
     for entry in fetched.entries:
         published_at = entry_date(entry, "published") or entry_date(entry, "updated")
         if published_at is None:
